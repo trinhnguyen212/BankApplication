@@ -58,7 +58,6 @@ namespace BankApplication
             try
             {
                 double Amount = double.Parse(txtWithdrawOmni.Text);
-               
                 omniAccounts.Withdraw(Amount);
                 listBox1.Items.Add($"Withdraw: {Amount}");
             }
@@ -72,7 +71,6 @@ namespace BankApplication
             }
             catch (Exception error)
             {
-
                 MessageBox.Show(error.Message);
             }
             txtWithdrawOmni.Clear();
@@ -80,13 +78,9 @@ namespace BankApplication
             if (x != 0)
             {
                 listBox1.Items.Add($"Failed transaction fee: {x}");
-
                 listBox1.Items.Add($"Update balance: {omniAccounts.Balance} - {x} = {omniAccounts.Balance -= x}");
                 omniAccounts.failedTransFee = 0;
             }
-            
-
-
         }
 
         private void btnCheckBalance_Click(object sender, EventArgs e)
@@ -100,7 +94,6 @@ namespace BankApplication
             {
                double  x = omniAccounts.Interest();
                 listBox1.Items.Add($"Caculated Interest: {x}");
-
             }
             catch (FormatException ex)
             {
@@ -112,10 +105,8 @@ namespace BankApplication
             }
             catch (Exception error)
             {
-
                 MessageBox.Show(error.Message);
             }
-
         }
 
         private void btnApplyInterest_Click(object sender, EventArgs e)
@@ -125,7 +116,6 @@ namespace BankApplication
                 omniAccounts.ApplyInterest();
                 listBox1.Items.Add($"Added Interest Balance: {omniAccounts.Balance}");
                 omniAccounts.Caculatedinterest = 0;
-
             }
             catch (FormatException ex)
             {
@@ -137,16 +127,13 @@ namespace BankApplication
             }
             catch (Exception error)
             {
-
                 MessageBox.Show(error.Message);
             }
-
         }
 
         private void btnCheckOverDraft_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add($"OverDraft Limit: {omniAccounts.overDraftLimit}");
-
         }
     }
 }

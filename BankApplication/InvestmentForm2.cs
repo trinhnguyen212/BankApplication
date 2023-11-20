@@ -33,8 +33,6 @@ namespace BankApplication
                 double Amount = double.Parse(txtAmount.Text);
                 investmentAccounts.Deposit(Amount);
                 listBox1.Items.Add($"Deposit: {Amount}");
-
-
             }
             catch (FormatException ex)
             {
@@ -46,7 +44,6 @@ namespace BankApplication
             }
             catch (Exception error)
             {
-
                 MessageBox.Show(error.Message);
             }
             txtAmount.Clear();
@@ -57,9 +54,7 @@ namespace BankApplication
             try
             {
                 double Amount = double.Parse(txtWithdrawAmount.Text);
-
                 investmentAccounts.Withdraw(Amount);
-
                 listBox1.Items.Add($"Withdraw: {Amount}");
                 txtWithdrawAmount.Clear();
             }
@@ -80,17 +75,14 @@ namespace BankApplication
             if (x != 0)
             {
                 listBox1.Items.Add($"transaction fee: {x}");
-
                 listBox1.Items.Add($"Update balance: {investmentAccounts.Balance} - {x} = {investmentAccounts.Balance -= x}");
                 investmentAccounts.failedTransFee = 0;
             }
-
         }
 
         private void btnCheckBalance_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add($"Current Balance: {investmentAccounts.Balance}");
-
         }
 
 
@@ -98,8 +90,6 @@ namespace BankApplication
         {
             double x = investmentAccounts.CaCulatedInterest();
             listBox1.Items.Add($"Caculated Interest: {x}");
-
-          
         }
 
         private void btnApplyInterest_Click(object sender, EventArgs e)
@@ -109,7 +99,6 @@ namespace BankApplication
                 investmentAccounts.ApplyInterest();
                 listBox1.Items.Add($"Added Interest Balance: {investmentAccounts.Balance}");
                 investmentAccounts.Caculatedinterest = 0;
-
             }
             catch (FormatException ex)
             {
@@ -121,10 +110,8 @@ namespace BankApplication
             }
             catch (Exception error)
             {
-
                 MessageBox.Show(error.Message);
             }
-            
         }
 
 

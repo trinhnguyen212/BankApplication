@@ -34,8 +34,6 @@ namespace BankApplication
         {
             if (amount < 0)
             {
-                
-
                 throw new ArgumentException("Amount cannot be negative.");
             }
 
@@ -60,7 +58,6 @@ namespace BankApplication
         {
                 Caculatedinterest = Balance * Convert.ToDouble(interestRated);
                 return Caculatedinterest;
-            
         }
 
         public void ApplyInterest()

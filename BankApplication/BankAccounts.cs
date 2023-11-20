@@ -8,7 +8,6 @@ namespace BankApplication
 {
     public abstract class BankAccounts
     {
-
         static int nextaccountNumber = 1;
         private int accountNumber;
         private double balance;
@@ -19,9 +18,8 @@ namespace BankApplication
             //each time an account is created its id is set and the nextaccountNumber for the class is increased
             accountNumber = nextaccountNumber;
             nextaccountNumber++;
-
         }
-
+        
         public int accountID
         {
             get { return accountNumber; }

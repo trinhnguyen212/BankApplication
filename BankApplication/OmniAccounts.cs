@@ -16,11 +16,11 @@ namespace BankApplication
             get;
             set;
         }
-        public bool staffDiscount
-        {
-            get;
-            set;
-        }
+        //public bool staffDiscount
+        //{
+        //    get;
+        //    set;
+        //}
         public double overDraftLimit
         {
             get { return overDraft; }
@@ -110,9 +110,5 @@ namespace BankApplication
             }
             else return 0;
         }
-
-
-
-
     }
     }

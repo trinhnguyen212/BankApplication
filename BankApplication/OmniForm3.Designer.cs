@@ -47,9 +47,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(177, 23);
+            this.label2.Location = new System.Drawing.Point(236, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 13);
+            this.label2.Size = new System.Drawing.Size(176, 17);
             this.label2.TabIndex = 36;
             this.label2.Text = "Enter Deposit Amount: ";
             // 
@@ -57,25 +58,29 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(630, 23);
+            this.label1.Location = new System.Drawing.Point(840, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 13);
+            this.label1.Size = new System.Drawing.Size(190, 17);
             this.label1.TabIndex = 35;
             this.label1.Text = "TRANSACTION HISTORY";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(619, 39);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(825, 48);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(169, 251);
+            this.listBox1.Size = new System.Drawing.Size(224, 308);
             this.listBox1.TabIndex = 34;
             // 
             // btnCheckBalance
             // 
-            this.btnCheckBalance.Location = new System.Drawing.Point(17, 141);
+            this.btnCheckBalance.Location = new System.Drawing.Point(23, 174);
+            this.btnCheckBalance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCheckBalance.Name = "btnCheckBalance";
-            this.btnCheckBalance.Size = new System.Drawing.Size(94, 38);
+            this.btnCheckBalance.Size = new System.Drawing.Size(125, 47);
             this.btnCheckBalance.TabIndex = 33;
             this.btnCheckBalance.Text = "&Check Balance";
             this.btnCheckBalance.UseVisualStyleBackColor = true;
@@ -84,9 +89,10 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(702, 400);
+            this.btnExit.Location = new System.Drawing.Point(936, 492);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(82, 38);
+            this.btnExit.Size = new System.Drawing.Size(109, 47);
             this.btnExit.TabIndex = 32;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -94,26 +100,29 @@
             // 
             // txtAmount
             // 
-            this.txtAmount.Location = new System.Drawing.Point(426, 23);
+            this.txtAmount.Location = new System.Drawing.Point(568, 28);
+            this.txtAmount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAmount.Name = "txtAmount";
-            this.txtAmount.Size = new System.Drawing.Size(126, 20);
+            this.txtAmount.Size = new System.Drawing.Size(167, 22);
             this.txtAmount.TabIndex = 29;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(177, 87);
+            this.label5.Location = new System.Drawing.Point(236, 107);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(158, 13);
+            this.label5.Size = new System.Drawing.Size(200, 17);
             this.label5.TabIndex = 28;
             this.label5.Text = "Enter Withdrawal Amount: ";
             // 
             // btnWithdraw
             // 
-            this.btnWithdraw.Location = new System.Drawing.Point(17, 74);
+            this.btnWithdraw.Location = new System.Drawing.Point(23, 91);
+            this.btnWithdraw.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnWithdraw.Name = "btnWithdraw";
-            this.btnWithdraw.Size = new System.Drawing.Size(94, 38);
+            this.btnWithdraw.Size = new System.Drawing.Size(125, 47);
             this.btnWithdraw.TabIndex = 27;
             this.btnWithdraw.Text = "&Withdraw";
             this.btnWithdraw.UseVisualStyleBackColor = true;
@@ -121,9 +130,10 @@
             // 
             // btnDeposit
             // 
-            this.btnDeposit.Location = new System.Drawing.Point(17, 12);
+            this.btnDeposit.Location = new System.Drawing.Point(23, 15);
+            this.btnDeposit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeposit.Name = "btnDeposit";
-            this.btnDeposit.Size = new System.Drawing.Size(94, 38);
+            this.btnDeposit.Size = new System.Drawing.Size(125, 47);
             this.btnDeposit.TabIndex = 26;
             this.btnDeposit.Text = "&Deposit";
             this.btnDeposit.UseVisualStyleBackColor = true;
@@ -131,9 +141,10 @@
             // 
             // btnCaculateInterest
             // 
-            this.btnCaculateInterest.Location = new System.Drawing.Point(17, 198);
+            this.btnCaculateInterest.Location = new System.Drawing.Point(23, 244);
+            this.btnCaculateInterest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCaculateInterest.Name = "btnCaculateInterest";
-            this.btnCaculateInterest.Size = new System.Drawing.Size(94, 38);
+            this.btnCaculateInterest.Size = new System.Drawing.Size(125, 47);
             this.btnCaculateInterest.TabIndex = 39;
             this.btnCaculateInterest.Text = "&Caculate Interest";
             this.btnCaculateInterest.UseVisualStyleBackColor = true;
@@ -141,9 +152,10 @@
             // 
             // btnApplyInterest
             // 
-            this.btnApplyInterest.Location = new System.Drawing.Point(17, 252);
+            this.btnApplyInterest.Location = new System.Drawing.Point(23, 310);
+            this.btnApplyInterest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnApplyInterest.Name = "btnApplyInterest";
-            this.btnApplyInterest.Size = new System.Drawing.Size(94, 38);
+            this.btnApplyInterest.Size = new System.Drawing.Size(125, 47);
             this.btnApplyInterest.TabIndex = 42;
             this.btnApplyInterest.Text = "&Apply Interest";
             this.btnApplyInterest.UseVisualStyleBackColor = true;
@@ -151,9 +163,10 @@
             // 
             // btnCheckOverDraft
             // 
-            this.btnCheckOverDraft.Location = new System.Drawing.Point(17, 300);
+            this.btnCheckOverDraft.Location = new System.Drawing.Point(23, 369);
+            this.btnCheckOverDraft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCheckOverDraft.Name = "btnCheckOverDraft";
-            this.btnCheckOverDraft.Size = new System.Drawing.Size(94, 38);
+            this.btnCheckOverDraft.Size = new System.Drawing.Size(125, 47);
             this.btnCheckOverDraft.TabIndex = 45;
             this.btnCheckOverDraft.Text = "&Check Overdraft Limit";
             this.btnCheckOverDraft.UseVisualStyleBackColor = true;
@@ -161,16 +174,17 @@
             // 
             // txtWithdrawOmni
             // 
-            this.txtWithdrawOmni.Location = new System.Drawing.Point(426, 80);
+            this.txtWithdrawOmni.Location = new System.Drawing.Point(568, 98);
+            this.txtWithdrawOmni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtWithdrawOmni.Name = "txtWithdrawOmni";
-            this.txtWithdrawOmni.Size = new System.Drawing.Size(126, 20);
+            this.txtWithdrawOmni.Size = new System.Drawing.Size(167, 22);
             this.txtWithdrawOmni.TabIndex = 47;
             // 
             // OmniForm3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.txtWithdrawOmni);
             this.Controls.Add(this.btnCheckOverDraft);
             this.Controls.Add(this.btnApplyInterest);
@@ -184,6 +198,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnWithdraw);
             this.Controls.Add(this.btnDeposit);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "OmniForm3";
             this.Text = "OmniForm3";
             this.ResumeLayout(false);

@@ -24,7 +24,6 @@ namespace BankApplication
             this.Close();
         }
 
-       
         private void btnCheckBalance_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add($"Current Balance: {everydayAccount.Balance}");

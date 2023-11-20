@@ -12,15 +12,9 @@ namespace BankApplication
         private int customerID;
         private string name;
         private string email;
-       // private string phoneNumber;
         private bool isstaff;
-        List<BankAccounts> Lst = new List<BankAccounts>();
-        //static variable has just one value for the class
-       // static int nextCustomerID = 1;
-      //  private int customerID;
-      //  private string name;
-       // private string email;
-      //  private bool isstaff;
+      private List<BankAccounts> Lst = new List<BankAccounts>();
+        
 
 
         public Customer()
@@ -29,6 +23,9 @@ namespace BankApplication
             //each time a book is created its id is set and the nextbookID for the class is increased
             customerID = nextCustomerID;
             nextCustomerID++;
+            
+            
+
         }
         public Customer(string newName, string newEmail, bool newIsStaff) : this()
         {
@@ -37,12 +34,13 @@ namespace BankApplication
             email = newEmail;
             isstaff = newIsStaff;
         }
-
+            
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
+        
         //public property Author uses lambda notation
         public string Email { get => email; set => email = value; }
 
@@ -71,6 +69,8 @@ namespace BankApplication
         {
             return name + "; " + "\n" + email  + ";" + "\n" + "StaffDiscount Status: " + isstaff;
         }
+
+
         public List<BankAccounts> GetSetAccountType
         {
             get
@@ -79,18 +79,11 @@ namespace BankApplication
             }
             set
             {
-                Lst = value;
+               Lst = value;
             }
         }
 
-        //public double Discount()
-        //{
-        //    if (isStaff)
-        //    {
-        //        return 0.5;
-        //    }
-        //    else { return 1.0; }
-        //}
+        
 
     }
 }
