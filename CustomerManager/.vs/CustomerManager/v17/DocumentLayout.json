@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|c:\\users\\tracy\\desktop\\2021061_assessment_3\\task_4\\customermanager\\everydayaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:everydayaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\investmentaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:investmentaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\omniaccountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:omniaccountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\omniaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:omniaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:frmcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\everydayform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:everydayform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\investmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:investmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\investmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:investmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmaddaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:frmaddaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\customersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{398FF35B-4207-4DC3-9E32-1DD0C1A3BA47}|CustomerManager.csproj|solutionrelative:customersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EverydayAccount.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\EverydayAccount.cs",
+              "RelativeDocumentMoniker": "EverydayAccount.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\EverydayAccount.cs",
+              "RelativeToolTip": "EverydayAccount.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAwCkAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:46:45.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvestmentAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\InvestmentAccounts.cs",
+              "RelativeDocumentMoniker": "InvestmentAccounts.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\InvestmentAccounts.cs",
+              "RelativeToolTip": "InvestmentAccounts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:46:00.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OmniAccountException.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniAccountException.cs",
+              "RelativeDocumentMoniker": "OmniAccountException.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniAccountException.cs",
+              "RelativeToolTip": "OmniAccountException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:45:58.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OmniAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniAccounts.cs",
+              "RelativeDocumentMoniker": "OmniAccounts.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniAccounts.cs",
+              "RelativeToolTip": "OmniAccounts.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAIwHoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:45:19.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\BankAccounts.cs",
+              "RelativeDocumentMoniker": "BankAccounts.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\BankAccounts.cs",
+              "RelativeToolTip": "BankAccounts.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowF4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:43:58.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\Customer.cs",
+              "RelativeToolTip": "Customer.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswGMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T22:15:14.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomersController.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\CustomersController.cs",
+              "RelativeToolTip": "CustomersController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwFgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:45:12.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EverydayForm1.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\EverydayForm1.cs",
+              "RelativeDocumentMoniker": "EverydayForm1.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\EverydayForm1.cs",
+              "RelativeToolTip": "EverydayForm1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA+wCQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T21:54:18.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OmniForm3.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniForm3.cs",
+              "RelativeDocumentMoniker": "OmniForm3.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniForm3.cs",
+              "RelativeToolTip": "OmniForm3.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T21:22:50.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmCatalog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmCatalog.cs",
+              "RelativeDocumentMoniker": "frmCatalog.cs",
+              "ToolTip": "C:\\Users\\tracy\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\frmCatalog.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\frmCatalog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:18:40.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmCatalog.cs",
+              "RelativeDocumentMoniker": "frmCatalog.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmCatalog.cs",
+              "RelativeToolTip": "frmCatalog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:18:38.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvestmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\InvestmentForm.cs",
+              "RelativeDocumentMoniker": "InvestmentForm.cs",
+              "ToolTip": "C:\\Users\\tracy\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\InvestmentForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\InvestmentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T21:22:32.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InvestmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\InvestmentForm.cs",
+              "RelativeDocumentMoniker": "InvestmentForm.cs",
+              "ToolTip": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\InvestmentForm.cs",
+              "RelativeToolTip": "InvestmentForm.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T21:22:34.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OmniForm3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\OmniForm3.cs",
+              "RelativeDocumentMoniker": "OmniForm3.cs",
+              "ToolTip": "C:\\Users\\tracy\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\OmniForm3.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\OmniForm3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T11:12:20.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmAddAccount.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\frmAddAccount.cs",
+              "RelativeDocumentMoniker": "frmAddAccount.cs",
+              "ToolTip": "C:\\Users\\tracy\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\frmAddAccount.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\frmAddAccount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:45:27.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomersView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\Desktop\\2021061_Assessment_3\\Task_4\\CustomerManager\\CustomersView.cs",
+              "RelativeDocumentMoniker": "CustomersView.cs",
+              "ToolTip": "C:\\Users\\tracy\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\CustomersView.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\BANK_CUSTOMER_MANAGEMENT-main\\BANK_CUSTOMER_MANAGEMENT-main\\CustomerManager\\CustomersView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T10:45:11.204Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

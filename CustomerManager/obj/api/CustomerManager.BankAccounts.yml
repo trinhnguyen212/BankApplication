@@ -1,0 +1,658 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  id: BankAccounts
+  parent: CustomerManager
+  children:
+  - CustomerManager.BankAccounts.#ctor
+  - CustomerManager.BankAccounts.accountID
+  - CustomerManager.BankAccounts.Balance
+  - CustomerManager.BankAccounts.Deposit(System.Double)
+  - CustomerManager.BankAccounts.Info
+  - CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  - CustomerManager.BankAccounts.Withdraw(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts
+  type: Class
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: BankAccounts
+    path: BankAccounts.cs
+    startLine: 14
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class BankAccounts
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class BankAccounts
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CustomerManager.EverydayAccount
+  - CustomerManager.InvestmentAccounts
+  - CustomerManager.OmniAccounts
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CustomerManager.BankAccounts.#ctor
+  commentId: M:CustomerManager.BankAccounts.#ctor
+  id: '#ctor'
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: BankAccounts()
+  nameWithType: BankAccounts.BankAccounts()
+  fullName: CustomerManager.BankAccounts.BankAccounts()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: .ctor
+    path: BankAccounts.cs
+    startLine: 26
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public BankAccounts()
+    content.vb: Public Sub New
+  overload: CustomerManager.BankAccounts.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.BankAccounts.accountID
+  commentId: P:CustomerManager.BankAccounts.accountID
+  id: accountID
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: accountID
+  nameWithType: BankAccounts.accountID
+  fullName: CustomerManager.BankAccounts.accountID
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: accountID
+    path: BankAccounts.cs
+    startLine: 34
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public int accountID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property accountID As Integer
+  overload: CustomerManager.BankAccounts.accountID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CustomerManager.BankAccounts.Balance
+  commentId: P:CustomerManager.BankAccounts.Balance
+  id: Balance
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: Balance
+  nameWithType: BankAccounts.Balance
+  fullName: CustomerManager.BankAccounts.Balance
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: Balance
+    path: BankAccounts.cs
+    startLine: 40
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double Balance { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Balance As Double
+  overload: CustomerManager.BankAccounts.Balance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.BankAccounts.Deposit(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Deposit(System.Double)
+  id: Deposit(System.Double)
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: Deposit(Double)
+  nameWithType: BankAccounts.Deposit(Double)
+  fullName: CustomerManager.BankAccounts.Deposit(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: Deposit
+    path: BankAccounts.cs
+    startLine: 46
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void Deposit(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    content.vb: Public Sub Deposit(amount As Double)
+  overload: CustomerManager.BankAccounts.Deposit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Withdraw(System.Double)
+  id: Withdraw(System.Double)
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: Withdraw(Double)
+  nameWithType: BankAccounts.Withdraw(Double)
+  fullName: CustomerManager.BankAccounts.Withdraw(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: Withdraw
+    path: BankAccounts.cs
+    startLine: 55
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public virtual void Withdraw(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    content.vb: Public Overridable Sub Withdraw(amount As Double)
+  overload: CustomerManager.BankAccounts.Withdraw*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  commentId: M:CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  id: Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: Transfer(Customer, BankAccounts, Double)
+  nameWithType: BankAccounts.Transfer(Customer, BankAccounts, Double)
+  fullName: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer, CustomerManager.BankAccounts, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: Transfer
+    path: BankAccounts.cs
+    startLine: 73
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public virtual void Transfer(Customer customer, BankAccounts toAccount, double amount)
+    parameters:
+    - id: customer
+      type: CustomerManager.Customer
+    - id: toAccount
+      type: CustomerManager.BankAccounts
+    - id: amount
+      type: System.Double
+    content.vb: Public Overridable Sub Transfer(customer As Customer, toAccount As BankAccounts, amount As Double)
+  overload: CustomerManager.BankAccounts.Transfer*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: CustomerManager.BankAccounts.Info
+  commentId: M:CustomerManager.BankAccounts.Info
+  id: Info
+  parent: CustomerManager.BankAccounts
+  langs:
+  - csharp
+  - vb
+  name: Info()
+  nameWithType: BankAccounts.Info()
+  fullName: CustomerManager.BankAccounts.Info()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
+    id: Info
+    path: BankAccounts.cs
+    startLine: 95
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public virtual string Info()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function Info As String
+  overload: CustomerManager.BankAccounts.Info*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CustomerManager.BankAccounts.#ctor*
+  commentId: Overload:CustomerManager.BankAccounts.#ctor
+  name: BankAccounts
+  nameWithType: BankAccounts.BankAccounts
+  fullName: CustomerManager.BankAccounts.BankAccounts
+- uid: CustomerManager.BankAccounts.accountID*
+  commentId: Overload:CustomerManager.BankAccounts.accountID
+  name: accountID
+  nameWithType: BankAccounts.accountID
+  fullName: CustomerManager.BankAccounts.accountID
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CustomerManager.BankAccounts.Balance*
+  commentId: Overload:CustomerManager.BankAccounts.Balance
+  name: Balance
+  nameWithType: BankAccounts.Balance
+  fullName: CustomerManager.BankAccounts.Balance
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CustomerManager.BankAccounts.Deposit*
+  commentId: Overload:CustomerManager.BankAccounts.Deposit
+  name: Deposit
+  nameWithType: BankAccounts.Deposit
+  fullName: CustomerManager.BankAccounts.Deposit
+- uid: CustomerManager.BankAccounts.Withdraw*
+  commentId: Overload:CustomerManager.BankAccounts.Withdraw
+  name: Withdraw
+  nameWithType: BankAccounts.Withdraw
+  fullName: CustomerManager.BankAccounts.Withdraw
+- uid: CustomerManager.BankAccounts.Transfer*
+  commentId: Overload:CustomerManager.BankAccounts.Transfer
+  name: Transfer
+  nameWithType: BankAccounts.Transfer
+  fullName: CustomerManager.BankAccounts.Transfer
+- uid: CustomerManager.Customer
+  commentId: T:CustomerManager.Customer
+  parent: CustomerManager
+  name: Customer
+  nameWithType: Customer
+  fullName: CustomerManager.Customer
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts
+- uid: CustomerManager.BankAccounts.Info*
+  commentId: Overload:CustomerManager.BankAccounts.Info
+  name: Info
+  nameWithType: BankAccounts.Info
+  fullName: CustomerManager.BankAccounts.Info
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

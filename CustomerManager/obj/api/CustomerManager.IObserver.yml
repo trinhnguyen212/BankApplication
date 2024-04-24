@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.IObserver
+  commentId: T:CustomerManager.IObserver
+  id: IObserver
+  parent: CustomerManager
+  children:
+  - CustomerManager.IObserver.Update(CustomerManager.BankAccounts)
+  langs:
+  - csharp
+  - vb
+  name: IObserver
+  nameWithType: IObserver
+  fullName: CustomerManager.IObserver
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+    id: IObserver
+    path: Interface.cs
+    startLine: 9
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public interface IObserver
+    content.vb: Public Interface IObserver
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CustomerManager.IObserver.Update(CustomerManager.BankAccounts)
+  commentId: M:CustomerManager.IObserver.Update(CustomerManager.BankAccounts)
+  id: Update(CustomerManager.BankAccounts)
+  parent: CustomerManager.IObserver
+  langs:
+  - csharp
+  - vb
+  name: Update(BankAccounts)
+  nameWithType: IObserver.Update(BankAccounts)
+  fullName: CustomerManager.IObserver.Update(CustomerManager.BankAccounts)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+    id: Update
+    path: Interface.cs
+    startLine: 14
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nThis is the interface &quot;IObserver&quot; for Observer pattern.\n"
+  example: []
+  syntax:
+    content: void Update(BankAccounts p)
+    parameters:
+    - id: p
+      type: CustomerManager.BankAccounts
+    content.vb: Sub Update(p As BankAccounts)
+  overload: CustomerManager.IObserver.Update*
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: CustomerManager.IObserver.Update*
+  commentId: Overload:CustomerManager.IObserver.Update
+  name: Update
+  nameWithType: IObserver.Update
+  fullName: CustomerManager.IObserver.Update
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts

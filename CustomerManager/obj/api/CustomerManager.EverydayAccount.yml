@@ -1,0 +1,728 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.EverydayAccount
+  commentId: T:CustomerManager.EverydayAccount
+  id: EverydayAccount
+  parent: CustomerManager
+  children:
+  - CustomerManager.EverydayAccount.#ctor(System.Double)
+  - CustomerManager.EverydayAccount.Info
+  - CustomerManager.EverydayAccount.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  - CustomerManager.EverydayAccount.Withdraw(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: EverydayAccount
+  nameWithType: EverydayAccount
+  fullName: CustomerManager.EverydayAccount
+  type: Class
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccount.cs
+    id: EverydayAccount
+    path: EverydayAccount.cs
+    startLine: 12
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class EverydayAccount : BankAccounts
+    content.vb: >-
+      <Serializable>
+
+      Public Class EverydayAccount
+          Inherits BankAccounts
+  inheritance:
+  - System.Object
+  - CustomerManager.BankAccounts
+  inheritedMembers:
+  - CustomerManager.BankAccounts.accountID
+  - CustomerManager.BankAccounts.Balance
+  - CustomerManager.BankAccounts.Deposit(System.Double)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CustomerManager.EverydayAccount.#ctor(System.Double)
+  commentId: M:CustomerManager.EverydayAccount.#ctor(System.Double)
+  id: '#ctor(System.Double)'
+  parent: CustomerManager.EverydayAccount
+  langs:
+  - csharp
+  - vb
+  name: EverydayAccount(Double)
+  nameWithType: EverydayAccount.EverydayAccount(Double)
+  fullName: CustomerManager.EverydayAccount.EverydayAccount(System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccount.cs
+    id: .ctor
+    path: EverydayAccount.cs
+    startLine: 19
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nThis is the EverydayAccount Class inherited from BankAccount class\n"
+  example: []
+  syntax:
+    content: public EverydayAccount(double balance)
+    parameters:
+    - id: balance
+      type: System.Double
+    content.vb: Public Sub New(balance As Double)
+  overload: CustomerManager.EverydayAccount.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.EverydayAccount.Withdraw(System.Double)
+  commentId: M:CustomerManager.EverydayAccount.Withdraw(System.Double)
+  id: Withdraw(System.Double)
+  parent: CustomerManager.EverydayAccount
+  langs:
+  - csharp
+  - vb
+  name: Withdraw(Double)
+  nameWithType: EverydayAccount.Withdraw(Double)
+  fullName: CustomerManager.EverydayAccount.Withdraw(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccount.cs
+    id: Withdraw
+    path: EverydayAccount.cs
+    startLine: 23
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public override void Withdraw(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    content.vb: Public Overrides Sub Withdraw(amount As Double)
+  overridden: CustomerManager.BankAccounts.Withdraw(System.Double)
+  overload: CustomerManager.EverydayAccount.Withdraw*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CustomerManager.EverydayAccount.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  commentId: M:CustomerManager.EverydayAccount.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  id: Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  parent: CustomerManager.EverydayAccount
+  langs:
+  - csharp
+  - vb
+  name: Transfer(Customer, BankAccounts, Double)
+  nameWithType: EverydayAccount.Transfer(Customer, BankAccounts, Double)
+  fullName: CustomerManager.EverydayAccount.Transfer(CustomerManager.Customer, CustomerManager.BankAccounts, System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccount.cs
+    id: Transfer
+    path: EverydayAccount.cs
+    startLine: 37
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public override void Transfer(Customer customer, BankAccounts toAccount, double amount)
+    parameters:
+    - id: customer
+      type: CustomerManager.Customer
+    - id: toAccount
+      type: CustomerManager.BankAccounts
+    - id: amount
+      type: System.Double
+    content.vb: Public Overrides Sub Transfer(customer As Customer, toAccount As BankAccounts, amount As Double)
+  overridden: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  overload: CustomerManager.EverydayAccount.Transfer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CustomerManager.EverydayAccount.Info
+  commentId: M:CustomerManager.EverydayAccount.Info
+  id: Info
+  parent: CustomerManager.EverydayAccount
+  langs:
+  - csharp
+  - vb
+  name: Info()
+  nameWithType: EverydayAccount.Info()
+  fullName: CustomerManager.EverydayAccount.Info()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccount.cs
+    id: Info
+    path: EverydayAccount.cs
+    startLine: 58
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public override string Info()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Info As String
+  overridden: CustomerManager.BankAccounts.Info
+  overload: CustomerManager.EverydayAccount.Info*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts
+- uid: CustomerManager.BankAccounts.accountID
+  commentId: P:CustomerManager.BankAccounts.accountID
+  parent: CustomerManager.BankAccounts
+  name: accountID
+  nameWithType: BankAccounts.accountID
+  fullName: CustomerManager.BankAccounts.accountID
+- uid: CustomerManager.BankAccounts.Balance
+  commentId: P:CustomerManager.BankAccounts.Balance
+  parent: CustomerManager.BankAccounts
+  name: Balance
+  nameWithType: BankAccounts.Balance
+  fullName: CustomerManager.BankAccounts.Balance
+- uid: CustomerManager.BankAccounts.Deposit(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Deposit(System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Deposit(Double)
+  nameWithType: BankAccounts.Deposit(Double)
+  fullName: CustomerManager.BankAccounts.Deposit(System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Deposit(System.Double)
+    name: Deposit
+    nameWithType: BankAccounts.Deposit
+    fullName: CustomerManager.BankAccounts.Deposit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Deposit(System.Double)
+    name: Deposit
+    nameWithType: BankAccounts.Deposit
+    fullName: CustomerManager.BankAccounts.Deposit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CustomerManager.EverydayAccount.#ctor*
+  commentId: Overload:CustomerManager.EverydayAccount.#ctor
+  name: EverydayAccount
+  nameWithType: EverydayAccount.EverydayAccount
+  fullName: CustomerManager.EverydayAccount.EverydayAccount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Withdraw(System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Withdraw(Double)
+  nameWithType: BankAccounts.Withdraw(Double)
+  fullName: CustomerManager.BankAccounts.Withdraw(System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+    name: Withdraw
+    nameWithType: BankAccounts.Withdraw
+    fullName: CustomerManager.BankAccounts.Withdraw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+    name: Withdraw
+    nameWithType: BankAccounts.Withdraw
+    fullName: CustomerManager.BankAccounts.Withdraw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.EverydayAccount.Withdraw*
+  commentId: Overload:CustomerManager.EverydayAccount.Withdraw
+  name: Withdraw
+  nameWithType: EverydayAccount.Withdraw
+  fullName: CustomerManager.EverydayAccount.Withdraw
+- uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  commentId: M:CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Transfer(Customer, BankAccounts, Double)
+  nameWithType: BankAccounts.Transfer(Customer, BankAccounts, Double)
+  fullName: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer, CustomerManager.BankAccounts, System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+    name: Transfer
+    nameWithType: BankAccounts.Transfer
+    fullName: CustomerManager.BankAccounts.Transfer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+    name: Transfer
+    nameWithType: BankAccounts.Transfer
+    fullName: CustomerManager.BankAccounts.Transfer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.EverydayAccount.Transfer*
+  commentId: Overload:CustomerManager.EverydayAccount.Transfer
+  name: Transfer
+  nameWithType: EverydayAccount.Transfer
+  fullName: CustomerManager.EverydayAccount.Transfer
+- uid: CustomerManager.Customer
+  commentId: T:CustomerManager.Customer
+  parent: CustomerManager
+  name: Customer
+  nameWithType: Customer
+  fullName: CustomerManager.Customer
+- uid: CustomerManager.BankAccounts.Info
+  commentId: M:CustomerManager.BankAccounts.Info
+  parent: CustomerManager.BankAccounts
+  name: Info()
+  nameWithType: BankAccounts.Info()
+  fullName: CustomerManager.BankAccounts.Info()
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Info
+    name: Info
+    nameWithType: BankAccounts.Info
+    fullName: CustomerManager.BankAccounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Info
+    name: Info
+    nameWithType: BankAccounts.Info
+    fullName: CustomerManager.BankAccounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.EverydayAccount.Info*
+  commentId: Overload:CustomerManager.EverydayAccount.Info
+  name: Info
+  nameWithType: EverydayAccount.Info
+  fullName: CustomerManager.EverydayAccount.Info
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
