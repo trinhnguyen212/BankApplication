@@ -1,0 +1,1223 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.Customer
+  commentId: T:CustomerManager.Customer
+  id: Customer
+  parent: CustomerManager
+  children:
+  - CustomerManager.Customer.#ctor
+  - CustomerManager.Customer.#ctor(System.String,System.String,System.String,CustomerManager.Customer.StaffStatus)
+  - CustomerManager.Customer.AddEverydayAccount
+  - CustomerManager.Customer.AddInvestmentAccount
+  - CustomerManager.Customer.AddOmniAccount
+  - CustomerManager.Customer.AttachObserver(CustomerManager.IObserver)
+  - CustomerManager.Customer.Catalog
+  - CustomerManager.Customer.FirstName
+  - CustomerManager.Customer.GetCheckAccountNumbers(System.Int32)
+  - CustomerManager.Customer.GetSetAccountType
+  - CustomerManager.Customer.ID
+  - CustomerManager.Customer.IsStaff
+  - CustomerManager.Customer.LastName
+  - CustomerManager.Customer.MyObservers
+  - CustomerManager.Customer.Nationality
+  - CustomerManager.Customer.NotifyObservers(CustomerManager.BankAccounts)
+  - CustomerManager.Customer.Transferfee
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: Customer
+  fullName: CustomerManager.Customer
+  type: Class
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: Customer
+    path: Customer.cs
+    startLine: 12
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Customer : ISubject
+    content.vb: >-
+      <Serializable>
+
+      Public Class Customer
+          Implements ISubject
+  inheritance:
+  - System.Object
+  implements:
+  - CustomerManager.ISubject
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CustomerManager.Customer.Catalog
+  commentId: F:CustomerManager.Customer.Catalog
+  id: Catalog
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: Catalog
+  nameWithType: Customer.Catalog
+  fullName: CustomerManager.Customer.Catalog
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: Catalog
+    path: Customer.cs
+    startLine: 20
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nThis is the Customer Model class part of the Model View Controller (MVC) pattern\n"
+  example: []
+  syntax:
+    content: public List<BankAccounts> Catalog
+    return:
+      type: System.Collections.Generic.List{CustomerManager.BankAccounts}
+    content.vb: Public Catalog As List(Of BankAccounts)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.MyObservers
+  commentId: F:CustomerManager.Customer.MyObservers
+  id: MyObservers
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: MyObservers
+  nameWithType: Customer.MyObservers
+  fullName: CustomerManager.Customer.MyObservers
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: MyObservers
+    path: Customer.cs
+    startLine: 21
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public List<IObserver> MyObservers
+    return:
+      type: System.Collections.Generic.List{CustomerManager.IObserver}
+    content.vb: Public MyObservers As List(Of IObserver)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.AddInvestmentAccount
+  commentId: M:CustomerManager.Customer.AddInvestmentAccount
+  id: AddInvestmentAccount
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: AddInvestmentAccount()
+  nameWithType: Customer.AddInvestmentAccount()
+  fullName: CustomerManager.Customer.AddInvestmentAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: AddInvestmentAccount
+    path: Customer.cs
+    startLine: 24
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void AddInvestmentAccount()
+    content.vb: Public Sub AddInvestmentAccount
+  overload: CustomerManager.Customer.AddInvestmentAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.AddEverydayAccount
+  commentId: M:CustomerManager.Customer.AddEverydayAccount
+  id: AddEverydayAccount
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: AddEverydayAccount()
+  nameWithType: Customer.AddEverydayAccount()
+  fullName: CustomerManager.Customer.AddEverydayAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: AddEverydayAccount
+    path: Customer.cs
+    startLine: 30
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void AddEverydayAccount()
+    content.vb: Public Sub AddEverydayAccount
+  overload: CustomerManager.Customer.AddEverydayAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.AddOmniAccount
+  commentId: M:CustomerManager.Customer.AddOmniAccount
+  id: AddOmniAccount
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: AddOmniAccount()
+  nameWithType: Customer.AddOmniAccount()
+  fullName: CustomerManager.Customer.AddOmniAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: AddOmniAccount
+    path: Customer.cs
+    startLine: 37
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void AddOmniAccount()
+    content.vb: Public Sub AddOmniAccount
+  overload: CustomerManager.Customer.AddOmniAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.AttachObserver(CustomerManager.IObserver)
+  commentId: M:CustomerManager.Customer.AttachObserver(CustomerManager.IObserver)
+  id: AttachObserver(CustomerManager.IObserver)
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: AttachObserver(IObserver)
+  nameWithType: Customer.AttachObserver(IObserver)
+  fullName: CustomerManager.Customer.AttachObserver(CustomerManager.IObserver)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: AttachObserver
+    path: Customer.cs
+    startLine: 44
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void AttachObserver(IObserver obs)
+    parameters:
+    - id: obs
+      type: CustomerManager.IObserver
+    content.vb: Public Sub AttachObserver(obs As IObserver)
+  overload: CustomerManager.Customer.AttachObserver*
+  implements:
+  - CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.NotifyObservers(CustomerManager.BankAccounts)
+  commentId: M:CustomerManager.Customer.NotifyObservers(CustomerManager.BankAccounts)
+  id: NotifyObservers(CustomerManager.BankAccounts)
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: NotifyObservers(BankAccounts)
+  nameWithType: Customer.NotifyObservers(BankAccounts)
+  fullName: CustomerManager.Customer.NotifyObservers(CustomerManager.BankAccounts)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: NotifyObservers
+    path: Customer.cs
+    startLine: 49
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void NotifyObservers(BankAccounts p)
+    parameters:
+    - id: p
+      type: CustomerManager.BankAccounts
+    content.vb: Public Sub NotifyObservers(p As BankAccounts)
+  overload: CustomerManager.Customer.NotifyObservers*
+  implements:
+  - CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.GetCheckAccountNumbers(System.Int32)
+  commentId: M:CustomerManager.Customer.GetCheckAccountNumbers(System.Int32)
+  id: GetCheckAccountNumbers(System.Int32)
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetCheckAccountNumbers(Int32)
+  nameWithType: Customer.GetCheckAccountNumbers(Int32)
+  fullName: CustomerManager.Customer.GetCheckAccountNumbers(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: GetCheckAccountNumbers
+    path: Customer.cs
+    startLine: 56
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void GetCheckAccountNumbers(int toAccount)
+    parameters:
+    - id: toAccount
+      type: System.Int32
+    content.vb: Public Sub GetCheckAccountNumbers(toAccount As Integer)
+  overload: CustomerManager.Customer.GetCheckAccountNumbers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.GetSetAccountType
+  commentId: P:CustomerManager.Customer.GetSetAccountType
+  id: GetSetAccountType
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: GetSetAccountType
+  nameWithType: Customer.GetSetAccountType
+  fullName: CustomerManager.Customer.GetSetAccountType
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: GetSetAccountType
+    path: Customer.cs
+    startLine: 78
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public List<BankAccounts> GetSetAccountType { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{CustomerManager.BankAccounts}
+    content.vb: Public Property GetSetAccountType As List(Of BankAccounts)
+  overload: CustomerManager.Customer.GetSetAccountType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.IsStaff
+  commentId: P:CustomerManager.Customer.IsStaff
+  id: IsStaff
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: IsStaff
+  nameWithType: Customer.IsStaff
+  fullName: CustomerManager.Customer.IsStaff
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: IsStaff
+    path: Customer.cs
+    startLine: 90
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public Customer.StaffStatus IsStaff { get; set; }
+    parameters: []
+    return:
+      type: CustomerManager.Customer.StaffStatus
+    content.vb: Public Property IsStaff As Customer.StaffStatus
+  overload: CustomerManager.Customer.IsStaff*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.FirstName
+  commentId: P:CustomerManager.Customer.FirstName
+  id: FirstName
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: Customer.FirstName
+  fullName: CustomerManager.Customer.FirstName
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: FirstName
+    path: Customer.cs
+    startLine: 96
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: CustomerManager.Customer.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.Transferfee
+  commentId: P:CustomerManager.Customer.Transferfee
+  id: Transferfee
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: Transferfee
+  nameWithType: Customer.Transferfee
+  fullName: CustomerManager.Customer.Transferfee
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: Transferfee
+    path: Customer.cs
+    startLine: 107
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double Transferfee { get; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public ReadOnly Property Transferfee As Double
+  overload: CustomerManager.Customer.Transferfee*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CustomerManager.Customer.LastName
+  commentId: P:CustomerManager.Customer.LastName
+  id: LastName
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: Customer.LastName
+  fullName: CustomerManager.Customer.LastName
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: LastName
+    path: Customer.cs
+    startLine: 120
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: CustomerManager.Customer.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.ID
+  commentId: P:CustomerManager.Customer.ID
+  id: ID
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Customer.ID
+  fullName: CustomerManager.Customer.ID
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: ID
+    path: Customer.cs
+    startLine: 133
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public string ID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ID As String
+  overload: CustomerManager.Customer.ID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.Nationality
+  commentId: P:CustomerManager.Customer.Nationality
+  id: Nationality
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: Nationality
+  nameWithType: Customer.Nationality
+  fullName: CustomerManager.Customer.Nationality
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: Nationality
+    path: Customer.cs
+    startLine: 146
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public string Nationality { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Nationality As String
+  overload: CustomerManager.Customer.Nationality*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.#ctor
+  commentId: M:CustomerManager.Customer.#ctor
+  id: '#ctor'
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: Customer()
+  nameWithType: Customer.Customer()
+  fullName: CustomerManager.Customer.Customer()
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: .ctor
+    path: Customer.cs
+    startLine: 154
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public Customer()
+    content.vb: Public Sub New
+  overload: CustomerManager.Customer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.Customer.#ctor(System.String,System.String,System.String,CustomerManager.Customer.StaffStatus)
+  commentId: M:CustomerManager.Customer.#ctor(System.String,System.String,System.String,CustomerManager.Customer.StaffStatus)
+  id: '#ctor(System.String,System.String,System.String,CustomerManager.Customer.StaffStatus)'
+  parent: CustomerManager.Customer
+  langs:
+  - csharp
+  - vb
+  name: Customer(String, String, String, Customer.StaffStatus)
+  nameWithType: Customer.Customer(String, String, String, Customer.StaffStatus)
+  fullName: CustomerManager.Customer.Customer(System.String, System.String, System.String, CustomerManager.Customer.StaffStatus)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: .ctor
+    path: Customer.cs
+    startLine: 160
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public Customer(string firstname, string lastname, string nationality, Customer.StaffStatus isstaff)
+    parameters:
+    - id: firstname
+      type: System.String
+    - id: lastname
+      type: System.String
+    - id: nationality
+      type: System.String
+    - id: isstaff
+      type: CustomerManager.Customer.StaffStatus
+    content.vb: Public Sub New(firstname As String, lastname As String, nationality As String, isstaff As Customer.StaffStatus)
+  overload: CustomerManager.Customer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CustomerManager.ISubject
+  commentId: T:CustomerManager.ISubject
+  parent: CustomerManager
+  name: ISubject
+  nameWithType: ISubject
+  fullName: CustomerManager.ISubject
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{CustomerManager.BankAccounts}
+  commentId: T:System.Collections.Generic.List{CustomerManager.BankAccounts}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BankAccounts>
+  nameWithType: List<BankAccounts>
+  fullName: System.Collections.Generic.List<CustomerManager.BankAccounts>
+  nameWithType.vb: List(Of BankAccounts)
+  fullName.vb: System.Collections.Generic.List(Of CustomerManager.BankAccounts)
+  name.vb: List(Of BankAccounts)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{CustomerManager.IObserver}
+  commentId: T:System.Collections.Generic.List{CustomerManager.IObserver}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IObserver>
+  nameWithType: List<IObserver>
+  fullName: System.Collections.Generic.List<CustomerManager.IObserver>
+  nameWithType.vb: List(Of IObserver)
+  fullName.vb: System.Collections.Generic.List(Of CustomerManager.IObserver)
+  name.vb: List(Of IObserver)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CustomerManager.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: CustomerManager.IObserver
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CustomerManager.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: CustomerManager.IObserver
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.Customer.AddInvestmentAccount*
+  commentId: Overload:CustomerManager.Customer.AddInvestmentAccount
+  name: AddInvestmentAccount
+  nameWithType: Customer.AddInvestmentAccount
+  fullName: CustomerManager.Customer.AddInvestmentAccount
+- uid: CustomerManager.Customer.AddEverydayAccount*
+  commentId: Overload:CustomerManager.Customer.AddEverydayAccount
+  name: AddEverydayAccount
+  nameWithType: Customer.AddEverydayAccount
+  fullName: CustomerManager.Customer.AddEverydayAccount
+- uid: CustomerManager.Customer.AddOmniAccount*
+  commentId: Overload:CustomerManager.Customer.AddOmniAccount
+  name: AddOmniAccount
+  nameWithType: Customer.AddOmniAccount
+  fullName: CustomerManager.Customer.AddOmniAccount
+- uid: CustomerManager.Customer.AttachObserver*
+  commentId: Overload:CustomerManager.Customer.AttachObserver
+  name: AttachObserver
+  nameWithType: Customer.AttachObserver
+  fullName: CustomerManager.Customer.AttachObserver
+- uid: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  commentId: M:CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  parent: CustomerManager.ISubject
+  name: AttachObserver(IObserver)
+  nameWithType: ISubject.AttachObserver(IObserver)
+  fullName: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  spec.csharp:
+  - uid: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+    name: AttachObserver
+    nameWithType: ISubject.AttachObserver
+    fullName: CustomerManager.ISubject.AttachObserver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: CustomerManager.IObserver
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+    name: AttachObserver
+    nameWithType: ISubject.AttachObserver
+    fullName: CustomerManager.ISubject.AttachObserver
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: CustomerManager.IObserver
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.IObserver
+  commentId: T:CustomerManager.IObserver
+  parent: CustomerManager
+  name: IObserver
+  nameWithType: IObserver
+  fullName: CustomerManager.IObserver
+- uid: CustomerManager.Customer.NotifyObservers*
+  commentId: Overload:CustomerManager.Customer.NotifyObservers
+  name: NotifyObservers
+  nameWithType: Customer.NotifyObservers
+  fullName: CustomerManager.Customer.NotifyObservers
+- uid: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  commentId: M:CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  parent: CustomerManager.ISubject
+  name: NotifyObservers(BankAccounts)
+  nameWithType: ISubject.NotifyObservers(BankAccounts)
+  fullName: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  spec.csharp:
+  - uid: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+    name: NotifyObservers
+    nameWithType: ISubject.NotifyObservers
+    fullName: CustomerManager.ISubject.NotifyObservers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+    name: NotifyObservers
+    nameWithType: ISubject.NotifyObservers
+    fullName: CustomerManager.ISubject.NotifyObservers
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts
+- uid: CustomerManager.Customer.GetCheckAccountNumbers*
+  commentId: Overload:CustomerManager.Customer.GetCheckAccountNumbers
+  name: GetCheckAccountNumbers
+  nameWithType: Customer.GetCheckAccountNumbers
+  fullName: CustomerManager.Customer.GetCheckAccountNumbers
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CustomerManager.Customer.GetSetAccountType*
+  commentId: Overload:CustomerManager.Customer.GetSetAccountType
+  name: GetSetAccountType
+  nameWithType: Customer.GetSetAccountType
+  fullName: CustomerManager.Customer.GetSetAccountType
+- uid: CustomerManager.Customer.IsStaff*
+  commentId: Overload:CustomerManager.Customer.IsStaff
+  name: IsStaff
+  nameWithType: Customer.IsStaff
+  fullName: CustomerManager.Customer.IsStaff
+- uid: CustomerManager.Customer.StaffStatus
+  commentId: T:CustomerManager.Customer.StaffStatus
+  parent: CustomerManager
+  name: Customer.StaffStatus
+  nameWithType: Customer.StaffStatus
+  fullName: CustomerManager.Customer.StaffStatus
+- uid: CustomerManager.Customer.FirstName*
+  commentId: Overload:CustomerManager.Customer.FirstName
+  name: FirstName
+  nameWithType: Customer.FirstName
+  fullName: CustomerManager.Customer.FirstName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CustomerManager.Customer.Transferfee*
+  commentId: Overload:CustomerManager.Customer.Transferfee
+  name: Transferfee
+  nameWithType: Customer.Transferfee
+  fullName: CustomerManager.Customer.Transferfee
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CustomerManager.Customer.LastName*
+  commentId: Overload:CustomerManager.Customer.LastName
+  name: LastName
+  nameWithType: Customer.LastName
+  fullName: CustomerManager.Customer.LastName
+- uid: CustomerManager.Customer.ID*
+  commentId: Overload:CustomerManager.Customer.ID
+  name: ID
+  nameWithType: Customer.ID
+  fullName: CustomerManager.Customer.ID
+- uid: CustomerManager.Customer.Nationality*
+  commentId: Overload:CustomerManager.Customer.Nationality
+  name: Nationality
+  nameWithType: Customer.Nationality
+  fullName: CustomerManager.Customer.Nationality
+- uid: CustomerManager.Customer.#ctor*
+  commentId: Overload:CustomerManager.Customer.#ctor
+  name: Customer
+  nameWithType: Customer.Customer
+  fullName: CustomerManager.Customer.Customer

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.Customer.StaffStatus
+  commentId: T:CustomerManager.Customer.StaffStatus
+  id: Customer.StaffStatus
+  parent: CustomerManager
+  children:
+  - CustomerManager.Customer.StaffStatus.NonStaff
+  - CustomerManager.Customer.StaffStatus.Staff
+  langs:
+  - csharp
+  - vb
+  name: Customer.StaffStatus
+  nameWithType: Customer.StaffStatus
+  fullName: CustomerManager.Customer.StaffStatus
+  type: Enum
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: StaffStatus
+    path: Customer.cs
+    startLine: 72
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public enum StaffStatus
+    content.vb: Public Enum StaffStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CustomerManager.Customer.StaffStatus.Staff
+  commentId: F:CustomerManager.Customer.StaffStatus.Staff
+  id: Staff
+  parent: CustomerManager.Customer.StaffStatus
+  langs:
+  - csharp
+  - vb
+  name: Staff
+  nameWithType: Customer.StaffStatus.Staff
+  fullName: CustomerManager.Customer.StaffStatus.Staff
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: Staff
+    path: Customer.cs
+    startLine: 74
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: Staff = 1
+    return:
+      type: CustomerManager.Customer.StaffStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CustomerManager.Customer.StaffStatus.NonStaff
+  commentId: F:CustomerManager.Customer.StaffStatus.NonStaff
+  id: NonStaff
+  parent: CustomerManager.Customer.StaffStatus
+  langs:
+  - csharp
+  - vb
+  name: NonStaff
+  nameWithType: Customer.StaffStatus.NonStaff
+  fullName: CustomerManager.Customer.StaffStatus.NonStaff
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Customer.cs
+    id: NonStaff
+    path: Customer.cs
+    startLine: 75
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: NonStaff = 2
+    return:
+      type: CustomerManager.Customer.StaffStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: CustomerManager.Customer.StaffStatus
+  commentId: T:CustomerManager.Customer.StaffStatus
+  parent: CustomerManager
+  name: Customer.StaffStatus
+  nameWithType: Customer.StaffStatus
+  fullName: CustomerManager.Customer.StaffStatus

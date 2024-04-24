@@ -1,0 +1,997 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.OmniAccounts
+  commentId: T:CustomerManager.OmniAccounts
+  id: OmniAccounts
+  parent: CustomerManager
+  children:
+  - CustomerManager.OmniAccounts.#ctor(System.Decimal,System.Double,System.Double,System.Double)
+  - CustomerManager.OmniAccounts.ApplyInterest
+  - CustomerManager.OmniAccounts.Caculatedinterest
+  - CustomerManager.OmniAccounts.CaCulatedInterest
+  - CustomerManager.OmniAccounts.CaculateTransFee(CustomerManager.Customer)
+  - CustomerManager.OmniAccounts.failedTransFee
+  - CustomerManager.OmniAccounts.Info
+  - CustomerManager.OmniAccounts.Interest
+  - CustomerManager.OmniAccounts.interestRated
+  - CustomerManager.OmniAccounts.overDraftLimit
+  - CustomerManager.OmniAccounts.Withdraw(System.Double)
+  langs:
+  - csharp
+  - vb
+  name: OmniAccounts
+  nameWithType: OmniAccounts
+  fullName: CustomerManager.OmniAccounts
+  type: Class
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: OmniAccounts
+    path: OmniAccounts.cs
+    startLine: 11
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class OmniAccounts : BankAccounts
+    content.vb: >-
+      <Serializable>
+
+      Public Class OmniAccounts
+          Inherits BankAccounts
+  inheritance:
+  - System.Object
+  - CustomerManager.BankAccounts
+  inheritedMembers:
+  - CustomerManager.BankAccounts.accountID
+  - CustomerManager.BankAccounts.Balance
+  - CustomerManager.BankAccounts.Deposit(System.Double)
+  - CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CustomerManager.OmniAccounts.failedTransFee
+  commentId: P:CustomerManager.OmniAccounts.failedTransFee
+  id: failedTransFee
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: failedTransFee
+  nameWithType: OmniAccounts.failedTransFee
+  fullName: CustomerManager.OmniAccounts.failedTransFee
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: failedTransFee
+    path: OmniAccounts.cs
+    startLine: 22
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double failedTransFee { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property failedTransFee As Double
+  overload: CustomerManager.OmniAccounts.failedTransFee*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.overDraftLimit
+  commentId: P:CustomerManager.OmniAccounts.overDraftLimit
+  id: overDraftLimit
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: overDraftLimit
+  nameWithType: OmniAccounts.overDraftLimit
+  fullName: CustomerManager.OmniAccounts.overDraftLimit
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: overDraftLimit
+    path: OmniAccounts.cs
+    startLine: 27
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double overDraftLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property overDraftLimit As Double
+  overload: CustomerManager.OmniAccounts.overDraftLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.interestRated
+  commentId: P:CustomerManager.OmniAccounts.interestRated
+  id: interestRated
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: interestRated
+  nameWithType: OmniAccounts.interestRated
+  fullName: CustomerManager.OmniAccounts.interestRated
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: interestRated
+    path: OmniAccounts.cs
+    startLine: 32
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public decimal interestRated { get; set; }
+    parameters: []
+    return:
+      type: System.Decimal
+    content.vb: Public Property interestRated As Decimal
+  overload: CustomerManager.OmniAccounts.interestRated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.#ctor(System.Decimal,System.Double,System.Double,System.Double)
+  commentId: M:CustomerManager.OmniAccounts.#ctor(System.Decimal,System.Double,System.Double,System.Double)
+  id: '#ctor(System.Decimal,System.Double,System.Double,System.Double)'
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: OmniAccounts(Decimal, Double, Double, Double)
+  nameWithType: OmniAccounts.OmniAccounts(Decimal, Double, Double, Double)
+  fullName: CustomerManager.OmniAccounts.OmniAccounts(System.Decimal, System.Double, System.Double, System.Double)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: .ctor
+    path: OmniAccounts.cs
+    startLine: 38
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public OmniAccounts(decimal newinterestRate, double newoverDraft, double newfailedFee, double newbalance)
+    parameters:
+    - id: newinterestRate
+      type: System.Decimal
+    - id: newoverDraft
+      type: System.Double
+    - id: newfailedFee
+      type: System.Double
+    - id: newbalance
+      type: System.Double
+    content.vb: Public Sub New(newinterestRate As Decimal, newoverDraft As Double, newfailedFee As Double, newbalance As Double)
+  overload: CustomerManager.OmniAccounts.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.Withdraw(System.Double)
+  commentId: M:CustomerManager.OmniAccounts.Withdraw(System.Double)
+  id: Withdraw(System.Double)
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: Withdraw(Double)
+  nameWithType: OmniAccounts.Withdraw(Double)
+  fullName: CustomerManager.OmniAccounts.Withdraw(System.Double)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: Withdraw
+    path: OmniAccounts.cs
+    startLine: 45
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public override void Withdraw(double amount)
+    parameters:
+    - id: amount
+      type: System.Double
+    content.vb: Public Overrides Sub Withdraw(amount As Double)
+  overridden: CustomerManager.BankAccounts.Withdraw(System.Double)
+  overload: CustomerManager.OmniAccounts.Withdraw*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CustomerManager.OmniAccounts.Caculatedinterest
+  commentId: P:CustomerManager.OmniAccounts.Caculatedinterest
+  id: Caculatedinterest
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: Caculatedinterest
+  nameWithType: OmniAccounts.Caculatedinterest
+  fullName: CustomerManager.OmniAccounts.Caculatedinterest
+  type: Property
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: Caculatedinterest
+    path: OmniAccounts.cs
+    startLine: 62
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double Caculatedinterest { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Caculatedinterest As Double
+  overload: CustomerManager.OmniAccounts.Caculatedinterest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.Interest
+  commentId: M:CustomerManager.OmniAccounts.Interest
+  id: Interest
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: Interest()
+  nameWithType: OmniAccounts.Interest()
+  fullName: CustomerManager.OmniAccounts.Interest()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: Interest
+    path: OmniAccounts.cs
+    startLine: 69
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double Interest()
+    return:
+      type: System.Double
+    content.vb: Public Function Interest As Double
+  overload: CustomerManager.OmniAccounts.Interest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.CaCulatedInterest
+  commentId: M:CustomerManager.OmniAccounts.CaCulatedInterest
+  id: CaCulatedInterest
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: CaCulatedInterest()
+  nameWithType: OmniAccounts.CaCulatedInterest()
+  fullName: CustomerManager.OmniAccounts.CaCulatedInterest()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: CaCulatedInterest
+    path: OmniAccounts.cs
+    startLine: 81
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double CaCulatedInterest()
+    return:
+      type: System.Double
+    content.vb: Public Function CaCulatedInterest As Double
+  overload: CustomerManager.OmniAccounts.CaCulatedInterest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.ApplyInterest
+  commentId: M:CustomerManager.OmniAccounts.ApplyInterest
+  id: ApplyInterest
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: ApplyInterest()
+  nameWithType: OmniAccounts.ApplyInterest()
+  fullName: CustomerManager.OmniAccounts.ApplyInterest()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: ApplyInterest
+    path: OmniAccounts.cs
+    startLine: 88
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public void ApplyInterest()
+    content.vb: Public Sub ApplyInterest
+  overload: CustomerManager.OmniAccounts.ApplyInterest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.CaculateTransFee(CustomerManager.Customer)
+  commentId: M:CustomerManager.OmniAccounts.CaculateTransFee(CustomerManager.Customer)
+  id: CaculateTransFee(CustomerManager.Customer)
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: CaculateTransFee(Customer)
+  nameWithType: OmniAccounts.CaculateTransFee(Customer)
+  fullName: CustomerManager.OmniAccounts.CaculateTransFee(CustomerManager.Customer)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: CaculateTransFee
+    path: OmniAccounts.cs
+    startLine: 100
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public double CaculateTransFee(Customer customer)
+    parameters:
+    - id: customer
+      type: CustomerManager.Customer
+    return:
+      type: System.Double
+    content.vb: Public Function CaculateTransFee(customer As Customer) As Double
+  overload: CustomerManager.OmniAccounts.CaculateTransFee*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.OmniAccounts.Info
+  commentId: M:CustomerManager.OmniAccounts.Info
+  id: Info
+  parent: CustomerManager.OmniAccounts
+  langs:
+  - csharp
+  - vb
+  name: Info()
+  nameWithType: OmniAccounts.Info()
+  fullName: CustomerManager.OmniAccounts.Info()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+    id: Info
+    path: OmniAccounts.cs
+    startLine: 113
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public override string Info()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Info As String
+  overridden: CustomerManager.BankAccounts.Info
+  overload: CustomerManager.OmniAccounts.Info*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts
+- uid: CustomerManager.BankAccounts.accountID
+  commentId: P:CustomerManager.BankAccounts.accountID
+  parent: CustomerManager.BankAccounts
+  name: accountID
+  nameWithType: BankAccounts.accountID
+  fullName: CustomerManager.BankAccounts.accountID
+- uid: CustomerManager.BankAccounts.Balance
+  commentId: P:CustomerManager.BankAccounts.Balance
+  parent: CustomerManager.BankAccounts
+  name: Balance
+  nameWithType: BankAccounts.Balance
+  fullName: CustomerManager.BankAccounts.Balance
+- uid: CustomerManager.BankAccounts.Deposit(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Deposit(System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Deposit(Double)
+  nameWithType: BankAccounts.Deposit(Double)
+  fullName: CustomerManager.BankAccounts.Deposit(System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Deposit(System.Double)
+    name: Deposit
+    nameWithType: BankAccounts.Deposit
+    fullName: CustomerManager.BankAccounts.Deposit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Deposit(System.Double)
+    name: Deposit
+    nameWithType: BankAccounts.Deposit
+    fullName: CustomerManager.BankAccounts.Deposit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  commentId: M:CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Transfer(Customer, BankAccounts, Double)
+  nameWithType: BankAccounts.Transfer(Customer, BankAccounts, Double)
+  fullName: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer, CustomerManager.BankAccounts, System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+    name: Transfer
+    nameWithType: BankAccounts.Transfer
+    fullName: CustomerManager.BankAccounts.Transfer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Transfer(CustomerManager.Customer,CustomerManager.BankAccounts,System.Double)
+    name: Transfer
+    nameWithType: BankAccounts.Transfer
+    fullName: CustomerManager.BankAccounts.Transfer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CustomerManager.OmniAccounts.failedTransFee*
+  commentId: Overload:CustomerManager.OmniAccounts.failedTransFee
+  name: failedTransFee
+  nameWithType: OmniAccounts.failedTransFee
+  fullName: CustomerManager.OmniAccounts.failedTransFee
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CustomerManager.OmniAccounts.overDraftLimit*
+  commentId: Overload:CustomerManager.OmniAccounts.overDraftLimit
+  name: overDraftLimit
+  nameWithType: OmniAccounts.overDraftLimit
+  fullName: CustomerManager.OmniAccounts.overDraftLimit
+- uid: CustomerManager.OmniAccounts.interestRated*
+  commentId: Overload:CustomerManager.OmniAccounts.interestRated
+  name: interestRated
+  nameWithType: OmniAccounts.interestRated
+  fullName: CustomerManager.OmniAccounts.interestRated
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: CustomerManager.OmniAccounts.#ctor*
+  commentId: Overload:CustomerManager.OmniAccounts.#ctor
+  name: OmniAccounts
+  nameWithType: OmniAccounts.OmniAccounts
+  fullName: CustomerManager.OmniAccounts.OmniAccounts
+- uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+  commentId: M:CustomerManager.BankAccounts.Withdraw(System.Double)
+  parent: CustomerManager.BankAccounts
+  isExternal: true
+  name: Withdraw(Double)
+  nameWithType: BankAccounts.Withdraw(Double)
+  fullName: CustomerManager.BankAccounts.Withdraw(System.Double)
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+    name: Withdraw
+    nameWithType: BankAccounts.Withdraw
+    fullName: CustomerManager.BankAccounts.Withdraw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Withdraw(System.Double)
+    name: Withdraw
+    nameWithType: BankAccounts.Withdraw
+    fullName: CustomerManager.BankAccounts.Withdraw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.OmniAccounts.Withdraw*
+  commentId: Overload:CustomerManager.OmniAccounts.Withdraw
+  name: Withdraw
+  nameWithType: OmniAccounts.Withdraw
+  fullName: CustomerManager.OmniAccounts.Withdraw
+- uid: CustomerManager.OmniAccounts.Caculatedinterest*
+  commentId: Overload:CustomerManager.OmniAccounts.Caculatedinterest
+  name: Caculatedinterest
+  nameWithType: OmniAccounts.Caculatedinterest
+  fullName: CustomerManager.OmniAccounts.Caculatedinterest
+- uid: CustomerManager.OmniAccounts.Interest*
+  commentId: Overload:CustomerManager.OmniAccounts.Interest
+  name: Interest
+  nameWithType: OmniAccounts.Interest
+  fullName: CustomerManager.OmniAccounts.Interest
+- uid: CustomerManager.OmniAccounts.CaCulatedInterest*
+  commentId: Overload:CustomerManager.OmniAccounts.CaCulatedInterest
+  name: CaCulatedInterest
+  nameWithType: OmniAccounts.CaCulatedInterest
+  fullName: CustomerManager.OmniAccounts.CaCulatedInterest
+- uid: CustomerManager.OmniAccounts.ApplyInterest*
+  commentId: Overload:CustomerManager.OmniAccounts.ApplyInterest
+  name: ApplyInterest
+  nameWithType: OmniAccounts.ApplyInterest
+  fullName: CustomerManager.OmniAccounts.ApplyInterest
+- uid: CustomerManager.OmniAccounts.CaculateTransFee*
+  commentId: Overload:CustomerManager.OmniAccounts.CaculateTransFee
+  name: CaculateTransFee
+  nameWithType: OmniAccounts.CaculateTransFee
+  fullName: CustomerManager.OmniAccounts.CaculateTransFee
+- uid: CustomerManager.Customer
+  commentId: T:CustomerManager.Customer
+  parent: CustomerManager
+  name: Customer
+  nameWithType: Customer
+  fullName: CustomerManager.Customer
+- uid: CustomerManager.BankAccounts.Info
+  commentId: M:CustomerManager.BankAccounts.Info
+  parent: CustomerManager.BankAccounts
+  name: Info()
+  nameWithType: BankAccounts.Info()
+  fullName: CustomerManager.BankAccounts.Info()
+  spec.csharp:
+  - uid: CustomerManager.BankAccounts.Info
+    name: Info
+    nameWithType: BankAccounts.Info
+    fullName: CustomerManager.BankAccounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CustomerManager.BankAccounts.Info
+    name: Info
+    nameWithType: BankAccounts.Info
+    fullName: CustomerManager.BankAccounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.OmniAccounts.Info*
+  commentId: Overload:CustomerManager.OmniAccounts.Info
+  name: Info
+  nameWithType: OmniAccounts.Info
+  fullName: CustomerManager.OmniAccounts.Info
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tracy\\source\\repos\\BankApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|c:\\users\\tracy\\source\\repos\\bankapplication\\bankapplication\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\omniform3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\investmentform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\investmentform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\investmentform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\investmentform2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|C:\\Users\\tracy\\source\\repos\\BankApplication\\bankapplication\\everydayform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA3EA12-0857-49E6-B784-39F11BABB9B5}|BankApplication\\BankApplication.csproj|solutionrelative:bankapplication\\everydayform1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "BankApplication\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\ClassDiagram1.cd",
+              "RelativeToolTip": "BankApplication\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-04-24T03:05:39.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\Customer.cs",
+              "RelativeDocumentMoniker": "BankApplication\\Customer.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\Customer.cs",
+              "RelativeToolTip": "BankApplication\\Customer.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\BankAccounts.cs",
+              "RelativeDocumentMoniker": "BankApplication\\BankAccounts.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\BankAccounts.cs",
+              "RelativeToolTip": "BankApplication\\BankAccounts.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OmniForm3.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\OmniForm3.cs",
+              "RelativeDocumentMoniker": "BankApplication\\OmniForm3.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\OmniForm3.cs",
+              "RelativeToolTip": "BankApplication\\OmniForm3.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwIoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InvestmentForm2.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\InvestmentForm2.cs",
+              "RelativeDocumentMoniker": "BankApplication\\InvestmentForm2.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\InvestmentForm2.cs",
+              "RelativeToolTip": "BankApplication\\InvestmentForm2.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswHEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvestmentForm2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\InvestmentForm2.cs",
+              "RelativeDocumentMoniker": "BankApplication\\InvestmentForm2.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\InvestmentForm2.cs [Design]",
+              "RelativeToolTip": "BankApplication\\InvestmentForm2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.342Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EverydayForm1.cs",
+              "DocumentMoniker": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\EverydayForm1.cs",
+              "RelativeDocumentMoniker": "BankApplication\\EverydayForm1.cs",
+              "ToolTip": "C:\\Users\\tracy\\source\\repos\\BankApplication\\BankApplication\\EverydayForm1.cs",
+              "RelativeToolTip": "BankApplication\\EverydayForm1.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:05:39.342Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

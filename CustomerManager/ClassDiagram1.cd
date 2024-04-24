@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CustomerManager.Customer">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CustomerManager.Customer.SexOfPerson" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Customer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAEAhAEAABEAAAAAAAAAAAAAAAAAABAECAg=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerManager.CustomersController">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAMAAEAAABAAAAQQAAIAAAAAAAEAAACAAoAAAAAA=</HashCode>
+      <FileName>CustomersController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomersView" />
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CustomerManager.CustomersView">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACASESAJCAAhIAQAISBAQgCEgJAgEAIAAQgAEAsCMo=</HashCode>
+      <FileName>CustomersView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

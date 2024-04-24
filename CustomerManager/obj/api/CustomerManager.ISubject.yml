@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.ISubject
+  commentId: T:CustomerManager.ISubject
+  id: ISubject
+  parent: CustomerManager
+  children:
+  - CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  - CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  langs:
+  - csharp
+  - vb
+  name: ISubject
+  nameWithType: ISubject
+  fullName: CustomerManager.ISubject
+  type: Interface
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+    id: ISubject
+    path: Interface.cs
+    startLine: 18
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public interface ISubject
+    content.vb: Public Interface ISubject
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  commentId: M:CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  id: AttachObserver(CustomerManager.IObserver)
+  parent: CustomerManager.ISubject
+  langs:
+  - csharp
+  - vb
+  name: AttachObserver(IObserver)
+  nameWithType: ISubject.AttachObserver(IObserver)
+  fullName: CustomerManager.ISubject.AttachObserver(CustomerManager.IObserver)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+    id: AttachObserver
+    path: Interface.cs
+    startLine: 23
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nThis is the interface &quot;ISubject&quot; for Observer pattern.\n"
+  example: []
+  syntax:
+    content: void AttachObserver(IObserver obs)
+    parameters:
+    - id: obs
+      type: CustomerManager.IObserver
+    content.vb: Sub AttachObserver(obs As IObserver)
+  overload: CustomerManager.ISubject.AttachObserver*
+- uid: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  commentId: M:CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  id: NotifyObservers(CustomerManager.BankAccounts)
+  parent: CustomerManager.ISubject
+  langs:
+  - csharp
+  - vb
+  name: NotifyObservers(BankAccounts)
+  nameWithType: ISubject.NotifyObservers(BankAccounts)
+  fullName: CustomerManager.ISubject.NotifyObservers(CustomerManager.BankAccounts)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+    id: NotifyObservers
+    path: Interface.cs
+    startLine: 24
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: void NotifyObservers(BankAccounts p)
+    parameters:
+    - id: p
+      type: CustomerManager.BankAccounts
+    content.vb: Sub NotifyObservers(p As BankAccounts)
+  overload: CustomerManager.ISubject.NotifyObservers*
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: CustomerManager.ISubject.AttachObserver*
+  commentId: Overload:CustomerManager.ISubject.AttachObserver
+  name: AttachObserver
+  nameWithType: ISubject.AttachObserver
+  fullName: CustomerManager.ISubject.AttachObserver
+- uid: CustomerManager.IObserver
+  commentId: T:CustomerManager.IObserver
+  parent: CustomerManager
+  name: IObserver
+  nameWithType: IObserver
+  fullName: CustomerManager.IObserver
+- uid: CustomerManager.ISubject.NotifyObservers*
+  commentId: Overload:CustomerManager.ISubject.NotifyObservers
+  name: NotifyObservers
+  nameWithType: ISubject.NotifyObservers
+  fullName: CustomerManager.ISubject.NotifyObservers
+- uid: CustomerManager.BankAccounts
+  commentId: T:CustomerManager.BankAccounts
+  parent: CustomerManager
+  name: BankAccounts
+  nameWithType: BankAccounts
+  fullName: CustomerManager.BankAccounts

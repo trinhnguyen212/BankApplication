@@ -1,0 +1,1235 @@
+### YamlMime:ManagedReference
+items:
+- uid: CustomerManager.CustomersController
+  commentId: T:CustomerManager.CustomersController
+  id: CustomersController
+  parent: CustomerManager
+  children:
+  - CustomerManager.CustomersController.#ctor(CustomerManager.CustomersView,System.Collections.Generic.List{CustomerManager.Customer})
+  - CustomerManager.CustomersController.#ctor(CustomerManager.frmAddAccount,CustomerManager.Customer)
+  - CustomerManager.CustomersController.#ctor(CustomerManager.frmCatalog,CustomerManager.Customer)
+  - CustomerManager.CustomersController._customers
+  - CustomerManager.CustomersController._customersaccount
+  - CustomerManager.CustomersController.AddEveryDayAccount
+  - CustomerManager.CustomersController.AddInvestmentAccount
+  - CustomerManager.CustomersController.AddNewCustomer
+  - CustomerManager.CustomersController.AddOmniAccount
+  - CustomerManager.CustomersController.LoadView
+  - CustomerManager.CustomersController.LoadView1
+  - CustomerManager.CustomersController.LoadView2
+  - CustomerManager.CustomersController.ManageSelectedAccount
+  - CustomerManager.CustomersController.ReadBinaryData
+  - CustomerManager.CustomersController.RemoveCustomer
+  - CustomerManager.CustomersController.Save
+  - CustomerManager.CustomersController.SelectedCustomerChanged(System.String)
+  - CustomerManager.CustomersController.SetSelectedCustomer
+  - CustomerManager.CustomersController.Update
+  - CustomerManager.CustomersController.WriteBinaryData
+  langs:
+  - csharp
+  - vb
+  name: CustomersController
+  nameWithType: CustomersController
+  fullName: CustomerManager.CustomersController
+  type: Class
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: CustomersController
+    path: CustomersController.cs
+    startLine: 13
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CustomersController
+    content.vb: >-
+      <Serializable>
+
+      Public Class CustomersController
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CustomerManager.CustomersController._customers
+  commentId: F:CustomerManager.CustomersController._customers
+  id: _customers
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: _customers
+  nameWithType: CustomersController._customers
+  fullName: CustomerManager.CustomersController._customers
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: _customers
+    path: CustomersController.cs
+    startLine: 31
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public List<Customer> _customers
+    return:
+      type: System.Collections.Generic.List{CustomerManager.Customer}
+    content.vb: Public _customers As List(Of Customer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController._customersaccount
+  commentId: F:CustomerManager.CustomersController._customersaccount
+  id: _customersaccount
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: _customersaccount
+  nameWithType: CustomersController._customersaccount
+  fullName: CustomerManager.CustomersController._customersaccount
+  type: Field
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: _customersaccount
+    path: CustomersController.cs
+    startLine: 32
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  syntax:
+    content: public List<BankAccounts> _customersaccount
+    return:
+      type: System.Collections.Generic.List{CustomerManager.BankAccounts}
+    content.vb: Public _customersaccount As List(Of BankAccounts)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.#ctor(CustomerManager.CustomersView,System.Collections.Generic.List{CustomerManager.Customer})
+  commentId: M:CustomerManager.CustomersController.#ctor(CustomerManager.CustomersView,System.Collections.Generic.List{CustomerManager.Customer})
+  id: '#ctor(CustomerManager.CustomersView,System.Collections.Generic.List{CustomerManager.Customer})'
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: CustomersController(CustomersView, List<Customer>)
+  nameWithType: CustomersController.CustomersController(CustomersView, List<Customer>)
+  fullName: CustomerManager.CustomersController.CustomersController(CustomerManager.CustomersView, System.Collections.Generic.List<CustomerManager.Customer>)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: .ctor
+    path: CustomersController.cs
+    startLine: 46
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nInitiate a CustomerView view along with a list of customers.\n"
+  example: []
+  syntax:
+    content: public CustomersController(CustomersView view, List<Customer> customers)
+    parameters:
+    - id: view
+      type: CustomerManager.CustomersView
+      description: A CustomerView view.
+    - id: customers
+      type: System.Collections.Generic.List{CustomerManager.Customer}
+      description: A List of Customer.
+    content.vb: Public Sub New(view As CustomersView, customers As List(Of Customer))
+  overload: CustomerManager.CustomersController.#ctor*
+  nameWithType.vb: CustomersController.CustomersController(CustomersView, List(Of Customer))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CustomerManager.CustomersController.CustomersController(CustomerManager.CustomersView, System.Collections.Generic.List(Of CustomerManager.Customer))
+  name.vb: CustomersController(CustomersView, List(Of Customer))
+- uid: CustomerManager.CustomersController.#ctor(CustomerManager.frmAddAccount,CustomerManager.Customer)
+  commentId: M:CustomerManager.CustomersController.#ctor(CustomerManager.frmAddAccount,CustomerManager.Customer)
+  id: '#ctor(CustomerManager.frmAddAccount,CustomerManager.Customer)'
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: CustomersController(frmAddAccount, Customer)
+  nameWithType: CustomersController.CustomersController(frmAddAccount, Customer)
+  fullName: CustomerManager.CustomersController.CustomersController(CustomerManager.frmAddAccount, CustomerManager.Customer)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: .ctor
+    path: CustomersController.cs
+    startLine: 61
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nInitiate a frmAddAccount view along with a list of customers.\n"
+  example: []
+  syntax:
+    content: public CustomersController(frmAddAccount frmAddAccount, Customer customer)
+    parameters:
+    - id: frmAddAccount
+      type: CustomerManager.frmAddAccount
+      description: A frmAddAccount view.
+    - id: customer
+      type: CustomerManager.Customer
+      description: A List of Customer.
+    content.vb: Public Sub New(frmAddAccount As frmAddAccount, customer As Customer)
+  overload: CustomerManager.CustomersController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.#ctor(CustomerManager.frmCatalog,CustomerManager.Customer)
+  commentId: M:CustomerManager.CustomersController.#ctor(CustomerManager.frmCatalog,CustomerManager.Customer)
+  id: '#ctor(CustomerManager.frmCatalog,CustomerManager.Customer)'
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: CustomersController(frmCatalog, Customer)
+  nameWithType: CustomersController.CustomersController(frmCatalog, Customer)
+  fullName: CustomerManager.CustomersController.CustomersController(CustomerManager.frmCatalog, CustomerManager.Customer)
+  type: Constructor
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: .ctor
+    path: CustomersController.cs
+    startLine: 76
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nInitiate a frmCatalog view along with a list of customers.\n"
+  example: []
+  syntax:
+    content: public CustomersController(frmCatalog frmCatalog, Customer customer)
+    parameters:
+    - id: frmCatalog
+      type: CustomerManager.frmCatalog
+      description: A frmCatalog view.
+    - id: customer
+      type: CustomerManager.Customer
+      description: A List of Customer.
+    content.vb: Public Sub New(frmCatalog As frmCatalog, customer As Customer)
+  overload: CustomerManager.CustomersController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.LoadView
+  commentId: M:CustomerManager.CustomersController.LoadView
+  id: LoadView
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: LoadView()
+  nameWithType: CustomersController.LoadView()
+  fullName: CustomerManager.CustomersController.LoadView()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: LoadView
+    path: CustomersController.cs
+    startLine: 118
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nLoad Customer to CustomerView\n"
+  example: []
+  syntax:
+    content: public void LoadView()
+    content.vb: Public Sub LoadView
+  overload: CustomerManager.CustomersController.LoadView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.LoadView1
+  commentId: M:CustomerManager.CustomersController.LoadView1
+  id: LoadView1
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: LoadView1()
+  nameWithType: CustomersController.LoadView1()
+  fullName: CustomerManager.CustomersController.LoadView1()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: LoadView1
+    path: CustomersController.cs
+    startLine: 129
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nLoad a customer&apos;s detail to frmAddAccount\n"
+  example: []
+  syntax:
+    content: public void LoadView1()
+    content.vb: Public Sub LoadView1
+  overload: CustomerManager.CustomersController.LoadView1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.LoadView2
+  commentId: M:CustomerManager.CustomersController.LoadView2
+  id: LoadView2
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: LoadView2()
+  nameWithType: CustomersController.LoadView2()
+  fullName: CustomerManager.CustomersController.LoadView2()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: LoadView2
+    path: CustomersController.cs
+    startLine: 140
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nUpdate customer&apos;s bankaccount list\n"
+  example: []
+  syntax:
+    content: public void LoadView2()
+    content.vb: Public Sub LoadView2
+  overload: CustomerManager.CustomersController.LoadView2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.SelectedCustomerChanged(System.String)
+  commentId: M:CustomerManager.CustomersController.SelectedCustomerChanged(System.String)
+  id: SelectedCustomerChanged(System.String)
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: SelectedCustomerChanged(String)
+  nameWithType: CustomersController.SelectedCustomerChanged(String)
+  fullName: CustomerManager.CustomersController.SelectedCustomerChanged(System.String)
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: SelectedCustomerChanged
+    path: CustomersController.cs
+    startLine: 153
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nChange Selected Customer\n"
+  example: []
+  syntax:
+    content: public void SelectedCustomerChanged(string selectedCustomerId)
+    parameters:
+    - id: selectedCustomerId
+      type: System.String
+    content.vb: Public Sub SelectedCustomerChanged(selectedCustomerId As String)
+  overload: CustomerManager.CustomersController.SelectedCustomerChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.AddNewCustomer
+  commentId: M:CustomerManager.CustomersController.AddNewCustomer
+  id: AddNewCustomer
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: AddNewCustomer()
+  nameWithType: CustomersController.AddNewCustomer()
+  fullName: CustomerManager.CustomersController.AddNewCustomer()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: AddNewCustomer
+    path: CustomersController.cs
+    startLine: 172
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Add new customer.\n"
+  example: []
+  syntax:
+    content: public void AddNewCustomer()
+    content.vb: Public Sub AddNewCustomer
+  overload: CustomerManager.CustomersController.AddNewCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.RemoveCustomer
+  commentId: M:CustomerManager.CustomersController.RemoveCustomer
+  id: RemoveCustomer
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: RemoveCustomer()
+  nameWithType: CustomersController.RemoveCustomer()
+  fullName: CustomerManager.CustomersController.RemoveCustomer()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: RemoveCustomer
+    path: CustomersController.cs
+    startLine: 189
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Remove Customer.\n"
+  example: []
+  syntax:
+    content: public void RemoveCustomer()
+    content.vb: Public Sub RemoveCustomer
+  overload: CustomerManager.CustomersController.RemoveCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.Save
+  commentId: M:CustomerManager.CustomersController.Save
+  id: Save
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: CustomersController.Save()
+  fullName: CustomerManager.CustomersController.Save()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: Save
+    path: CustomersController.cs
+    startLine: 226
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nSave customer\n"
+  example: []
+  syntax:
+    content: public void Save()
+    content.vb: Public Sub Save
+  overload: CustomerManager.CustomersController.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.Update
+  commentId: M:CustomerManager.CustomersController.Update
+  id: Update
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: CustomersController.Update()
+  fullName: CustomerManager.CustomersController.Update()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: Update
+    path: CustomersController.cs
+    startLine: 245
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nUpdate Customer Detail With View Values.\n"
+  example: []
+  syntax:
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: CustomerManager.CustomersController.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.SetSelectedCustomer
+  commentId: M:CustomerManager.CustomersController.SetSelectedCustomer
+  id: SetSelectedCustomer
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedCustomer()
+  nameWithType: CustomersController.SetSelectedCustomer()
+  fullName: CustomerManager.CustomersController.SetSelectedCustomer()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: SetSelectedCustomer
+    path: CustomersController.cs
+    startLine: 260
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nSet Selected Customer To frmControl.\n"
+  example: []
+  syntax:
+    content: public void SetSelectedCustomer()
+    content.vb: Public Sub SetSelectedCustomer
+  overload: CustomerManager.CustomersController.SetSelectedCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.AddEveryDayAccount
+  commentId: M:CustomerManager.CustomersController.AddEveryDayAccount
+  id: AddEveryDayAccount
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: AddEveryDayAccount()
+  nameWithType: CustomersController.AddEveryDayAccount()
+  fullName: CustomerManager.CustomersController.AddEveryDayAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: AddEveryDayAccount
+    path: CustomersController.cs
+    startLine: 274
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Add EveryDayAccount to Customer&apos; bankaccount list.\n"
+  example: []
+  syntax:
+    content: public void AddEveryDayAccount()
+    content.vb: Public Sub AddEveryDayAccount
+  overload: CustomerManager.CustomersController.AddEveryDayAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.AddOmniAccount
+  commentId: M:CustomerManager.CustomersController.AddOmniAccount
+  id: AddOmniAccount
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: AddOmniAccount()
+  nameWithType: CustomersController.AddOmniAccount()
+  fullName: CustomerManager.CustomersController.AddOmniAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: AddOmniAccount
+    path: CustomersController.cs
+    startLine: 282
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Add OmniAccount to Customer&apos; bankaccount list.\n"
+  example: []
+  syntax:
+    content: public void AddOmniAccount()
+    content.vb: Public Sub AddOmniAccount
+  overload: CustomerManager.CustomersController.AddOmniAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.AddInvestmentAccount
+  commentId: M:CustomerManager.CustomersController.AddInvestmentAccount
+  id: AddInvestmentAccount
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: AddInvestmentAccount()
+  nameWithType: CustomersController.AddInvestmentAccount()
+  fullName: CustomerManager.CustomersController.AddInvestmentAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: AddInvestmentAccount
+    path: CustomersController.cs
+    startLine: 290
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Add OmniAccount to Customer&apos; bankaccount list.\n"
+  example: []
+  syntax:
+    content: public void AddInvestmentAccount()
+    content.vb: Public Sub AddInvestmentAccount
+  overload: CustomerManager.CustomersController.AddInvestmentAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.ReadBinaryData
+  commentId: M:CustomerManager.CustomersController.ReadBinaryData
+  id: ReadBinaryData
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: ReadBinaryData()
+  nameWithType: CustomersController.ReadBinaryData()
+  fullName: CustomerManager.CustomersController.ReadBinaryData()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: ReadBinaryData
+    path: CustomersController.cs
+    startLine: 298
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Deserialize Data\n"
+  example: []
+  syntax:
+    content: public void ReadBinaryData()
+    content.vb: Public Sub ReadBinaryData
+  overload: CustomerManager.CustomersController.ReadBinaryData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.WriteBinaryData
+  commentId: M:CustomerManager.CustomersController.WriteBinaryData
+  id: WriteBinaryData
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: WriteBinaryData()
+  nameWithType: CustomersController.WriteBinaryData()
+  fullName: CustomerManager.CustomersController.WriteBinaryData()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: WriteBinaryData
+    path: CustomersController.cs
+    startLine: 311
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Serialize Data\n"
+  example: []
+  syntax:
+    content: public void WriteBinaryData()
+    content.vb: Public Sub WriteBinaryData
+  overload: CustomerManager.CustomersController.WriteBinaryData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CustomerManager.CustomersController.ManageSelectedAccount
+  commentId: M:CustomerManager.CustomersController.ManageSelectedAccount
+  id: ManageSelectedAccount
+  parent: CustomerManager.CustomersController
+  langs:
+  - csharp
+  - vb
+  name: ManageSelectedAccount()
+  nameWithType: CustomersController.ManageSelectedAccount()
+  fullName: CustomerManager.CustomersController.ManageSelectedAccount()
+  type: Method
+  source:
+    remote:
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+    id: ManageSelectedAccount
+    path: CustomersController.cs
+    startLine: 329
+  assemblies:
+  - CustomerManager
+  namespace: CustomerManager
+  summary: "\nTo Manage Selected Account&apos;s Transaction.\n"
+  example: []
+  syntax:
+    content: public void ManageSelectedAccount()
+    content.vb: Public Sub ManageSelectedAccount
+  overload: CustomerManager.CustomersController.ManageSelectedAccount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CustomerManager
+  commentId: N:CustomerManager
+  name: CustomerManager
+  nameWithType: CustomerManager
+  fullName: CustomerManager
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{CustomerManager.Customer}
+  commentId: T:System.Collections.Generic.List{CustomerManager.Customer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Customer>
+  nameWithType: List<Customer>
+  fullName: System.Collections.Generic.List<CustomerManager.Customer>
+  nameWithType.vb: List(Of Customer)
+  fullName.vb: System.Collections.Generic.List(Of CustomerManager.Customer)
+  name.vb: List(Of Customer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CustomerManager.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: CustomerManager.Customer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{CustomerManager.BankAccounts}
+  commentId: T:System.Collections.Generic.List{CustomerManager.BankAccounts}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BankAccounts>
+  nameWithType: List<BankAccounts>
+  fullName: System.Collections.Generic.List<CustomerManager.BankAccounts>
+  nameWithType.vb: List(Of BankAccounts)
+  fullName.vb: System.Collections.Generic.List(Of CustomerManager.BankAccounts)
+  name.vb: List(Of BankAccounts)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+    nameWithType: BankAccounts
+    fullName: CustomerManager.BankAccounts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CustomerManager.CustomersController.#ctor*
+  commentId: Overload:CustomerManager.CustomersController.#ctor
+  name: CustomersController
+  nameWithType: CustomersController.CustomersController
+  fullName: CustomerManager.CustomersController.CustomersController
+- uid: CustomerManager.CustomersView
+  commentId: T:CustomerManager.CustomersView
+  parent: CustomerManager
+  name: CustomersView
+  nameWithType: CustomersView
+  fullName: CustomerManager.CustomersView
+- uid: CustomerManager.frmAddAccount
+  commentId: T:CustomerManager.frmAddAccount
+  parent: CustomerManager
+  name: frmAddAccount
+  nameWithType: frmAddAccount
+  fullName: CustomerManager.frmAddAccount
+- uid: CustomerManager.Customer
+  commentId: T:CustomerManager.Customer
+  parent: CustomerManager
+  name: Customer
+  nameWithType: Customer
+  fullName: CustomerManager.Customer
+- uid: CustomerManager.frmCatalog
+  commentId: T:CustomerManager.frmCatalog
+  parent: CustomerManager
+  name: frmCatalog
+  nameWithType: frmCatalog
+  fullName: CustomerManager.frmCatalog
+- uid: CustomerManager.CustomersController.LoadView*
+  commentId: Overload:CustomerManager.CustomersController.LoadView
+  name: LoadView
+  nameWithType: CustomersController.LoadView
+  fullName: CustomerManager.CustomersController.LoadView
+- uid: CustomerManager.CustomersController.LoadView1*
+  commentId: Overload:CustomerManager.CustomersController.LoadView1
+  name: LoadView1
+  nameWithType: CustomersController.LoadView1
+  fullName: CustomerManager.CustomersController.LoadView1
+- uid: CustomerManager.CustomersController.LoadView2*
+  commentId: Overload:CustomerManager.CustomersController.LoadView2
+  name: LoadView2
+  nameWithType: CustomersController.LoadView2
+  fullName: CustomerManager.CustomersController.LoadView2
+- uid: CustomerManager.CustomersController.SelectedCustomerChanged*
+  commentId: Overload:CustomerManager.CustomersController.SelectedCustomerChanged
+  name: SelectedCustomerChanged
+  nameWithType: CustomersController.SelectedCustomerChanged
+  fullName: CustomerManager.CustomersController.SelectedCustomerChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CustomerManager.CustomersController.AddNewCustomer*
+  commentId: Overload:CustomerManager.CustomersController.AddNewCustomer
+  name: AddNewCustomer
+  nameWithType: CustomersController.AddNewCustomer
+  fullName: CustomerManager.CustomersController.AddNewCustomer
+- uid: CustomerManager.CustomersController.RemoveCustomer*
+  commentId: Overload:CustomerManager.CustomersController.RemoveCustomer
+  name: RemoveCustomer
+  nameWithType: CustomersController.RemoveCustomer
+  fullName: CustomerManager.CustomersController.RemoveCustomer
+- uid: CustomerManager.CustomersController.Save*
+  commentId: Overload:CustomerManager.CustomersController.Save
+  name: Save
+  nameWithType: CustomersController.Save
+  fullName: CustomerManager.CustomersController.Save
+- uid: CustomerManager.CustomersController.Update*
+  commentId: Overload:CustomerManager.CustomersController.Update
+  name: Update
+  nameWithType: CustomersController.Update
+  fullName: CustomerManager.CustomersController.Update
+- uid: CustomerManager.CustomersController.SetSelectedCustomer*
+  commentId: Overload:CustomerManager.CustomersController.SetSelectedCustomer
+  name: SetSelectedCustomer
+  nameWithType: CustomersController.SetSelectedCustomer
+  fullName: CustomerManager.CustomersController.SetSelectedCustomer
+- uid: CustomerManager.CustomersController.AddEveryDayAccount*
+  commentId: Overload:CustomerManager.CustomersController.AddEveryDayAccount
+  name: AddEveryDayAccount
+  nameWithType: CustomersController.AddEveryDayAccount
+  fullName: CustomerManager.CustomersController.AddEveryDayAccount
+- uid: CustomerManager.CustomersController.AddOmniAccount*
+  commentId: Overload:CustomerManager.CustomersController.AddOmniAccount
+  name: AddOmniAccount
+  nameWithType: CustomersController.AddOmniAccount
+  fullName: CustomerManager.CustomersController.AddOmniAccount
+- uid: CustomerManager.CustomersController.AddInvestmentAccount*
+  commentId: Overload:CustomerManager.CustomersController.AddInvestmentAccount
+  name: AddInvestmentAccount
+  nameWithType: CustomersController.AddInvestmentAccount
+  fullName: CustomerManager.CustomersController.AddInvestmentAccount
+- uid: CustomerManager.CustomersController.ReadBinaryData*
+  commentId: Overload:CustomerManager.CustomersController.ReadBinaryData
+  name: ReadBinaryData
+  nameWithType: CustomersController.ReadBinaryData
+  fullName: CustomerManager.CustomersController.ReadBinaryData
+- uid: CustomerManager.CustomersController.WriteBinaryData*
+  commentId: Overload:CustomerManager.CustomersController.WriteBinaryData
+  name: WriteBinaryData
+  nameWithType: CustomersController.WriteBinaryData
+  fullName: CustomerManager.CustomersController.WriteBinaryData
+- uid: CustomerManager.CustomersController.ManageSelectedAccount*
+  commentId: Overload:CustomerManager.CustomersController.ManageSelectedAccount
+  name: ManageSelectedAccount
+  nameWithType: CustomersController.ManageSelectedAccount
+  fullName: CustomerManager.CustomersController.ManageSelectedAccount

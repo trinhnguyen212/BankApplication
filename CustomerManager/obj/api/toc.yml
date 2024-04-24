@@ -1,0 +1,48 @@
+### YamlMime:TableOfContent
+- uid: CustomerManager
+  name: CustomerManager
+  items:
+  - uid: CustomerManager.BankAccounts
+    name: BankAccounts
+  - uid: CustomerManager.Customer
+    name: Customer
+  - uid: CustomerManager.Customer.StaffStatus
+    name: Customer.StaffStatus
+  - uid: CustomerManager.CustomersController
+    name: CustomersController
+  - uid: CustomerManager.CustomersView
+    name: CustomersView
+  - uid: CustomerManager.EverydayAccount
+    name: EverydayAccount
+  - uid: CustomerManager.EverydayAccountException
+    name: EverydayAccountException
+  - uid: CustomerManager.EverydayForm1
+    name: EverydayForm1
+  - uid: CustomerManager.FailedTransferExcception
+    name: FailedTransferExcception
+  - uid: CustomerManager.FailedWithdrawalExcception
+    name: FailedWithdrawalExcception
+  - uid: CustomerManager.frmAddAccount
+    name: frmAddAccount
+  - uid: CustomerManager.frmCatalog
+    name: frmCatalog
+  - uid: CustomerManager.frmControl
+    name: frmControl
+  - uid: CustomerManager.frmLatestAccount
+    name: frmLatestAccount
+  - uid: CustomerManager.InvestmentAccountException
+    name: InvestmentAccountException
+  - uid: CustomerManager.InvestmentAccounts
+    name: InvestmentAccounts
+  - uid: CustomerManager.InvestmentForm
+    name: InvestmentForm
+  - uid: CustomerManager.IObserver
+    name: IObserver
+  - uid: CustomerManager.ISubject
+    name: ISubject
+  - uid: CustomerManager.OmniAccountException
+    name: OmniAccountException
+  - uid: CustomerManager.OmniAccounts
+    name: OmniAccounts
+  - uid: CustomerManager.OmniForm3
+    name: OmniForm3
