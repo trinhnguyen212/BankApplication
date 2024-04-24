@@ -25,7 +25,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: OmniAccounts
     path: OmniAccounts.cs
     startLine: 11
@@ -80,7 +82,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: failedTransFee
     path: OmniAccounts.cs
     startLine: 22
@@ -113,7 +117,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: overDraftLimit
     path: OmniAccounts.cs
     startLine: 27
@@ -146,7 +152,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: interestRated
     path: OmniAccounts.cs
     startLine: 32
@@ -179,7 +187,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: OmniAccounts.cs
     startLine: 38
@@ -216,7 +226,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Withdraw
     path: OmniAccounts.cs
     startLine: 45
@@ -250,7 +262,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Caculatedinterest
     path: OmniAccounts.cs
     startLine: 62
@@ -283,7 +297,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Interest
     path: OmniAccounts.cs
     startLine: 69
@@ -313,7 +329,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: CaCulatedInterest
     path: OmniAccounts.cs
     startLine: 81
@@ -343,7 +361,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: ApplyInterest
     path: OmniAccounts.cs
     startLine: 88
@@ -371,7 +391,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: CaculateTransFee
     path: OmniAccounts.cs
     startLine: 100
@@ -404,7 +426,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccounts.cs
+      path: CustomerManager/OmniAccounts.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Info
     path: OmniAccounts.cs
     startLine: 113

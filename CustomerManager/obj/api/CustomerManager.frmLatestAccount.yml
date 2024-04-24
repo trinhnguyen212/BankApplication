@@ -18,7 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmLatestAccount.Designer.cs
+      path: CustomerManager/frmLatestAccount.Designer.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: frmLatestAccount
     path: frmLatestAccount.Designer.cs
     startLine: 2
@@ -582,7 +584,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmLatestAccount.cs
+      path: CustomerManager/frmLatestAccount.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: frmLatestAccount.cs
     startLine: 22
@@ -610,7 +614,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmLatestAccount.cs
+      path: CustomerManager/frmLatestAccount.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Update
     path: frmLatestAccount.cs
     startLine: 26
@@ -643,7 +649,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmLatestAccount.cs
+      path: CustomerManager/frmLatestAccount.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: SetController
     path: frmLatestAccount.cs
     startLine: 30
@@ -674,7 +682,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmLatestAccount.Designer.cs
+      path: CustomerManager/frmLatestAccount.Designer.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Dispose
     path: frmLatestAccount.Designer.cs
     startLine: 13

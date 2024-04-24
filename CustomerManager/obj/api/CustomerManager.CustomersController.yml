@@ -34,7 +34,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: CustomersController
     path: CustomersController.cs
     startLine: 13
@@ -83,7 +85,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: _customers
     path: CustomersController.cs
     startLine: 31
@@ -112,7 +116,9 @@ items:
   type: Field
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: _customersaccount
     path: CustomersController.cs
     startLine: 32
@@ -141,7 +147,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: CustomersController.cs
     startLine: 46
@@ -181,7 +189,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: CustomersController.cs
     startLine: 61
@@ -218,7 +228,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: CustomersController.cs
     startLine: 76
@@ -255,7 +267,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: LoadView
     path: CustomersController.cs
     startLine: 118
@@ -285,7 +299,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: LoadView1
     path: CustomersController.cs
     startLine: 129
@@ -315,7 +331,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: LoadView2
     path: CustomersController.cs
     startLine: 140
@@ -345,7 +363,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: SelectedCustomerChanged
     path: CustomersController.cs
     startLine: 153
@@ -378,7 +398,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: AddNewCustomer
     path: CustomersController.cs
     startLine: 172
@@ -408,7 +430,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: RemoveCustomer
     path: CustomersController.cs
     startLine: 189
@@ -438,7 +462,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Save
     path: CustomersController.cs
     startLine: 226
@@ -468,7 +494,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Update
     path: CustomersController.cs
     startLine: 245
@@ -498,7 +526,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: SetSelectedCustomer
     path: CustomersController.cs
     startLine: 260
@@ -528,7 +558,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: AddEveryDayAccount
     path: CustomersController.cs
     startLine: 274
@@ -558,7 +590,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: AddOmniAccount
     path: CustomersController.cs
     startLine: 282
@@ -588,7 +622,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: AddInvestmentAccount
     path: CustomersController.cs
     startLine: 290
@@ -618,7 +654,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: ReadBinaryData
     path: CustomersController.cs
     startLine: 298
@@ -648,7 +686,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: WriteBinaryData
     path: CustomersController.cs
     startLine: 311
@@ -678,7 +718,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/CustomersController.cs
+      path: CustomerManager/CustomersController.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: ManageSelectedAccount
     path: CustomersController.cs
     startLine: 329

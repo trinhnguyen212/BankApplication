@@ -17,7 +17,9 @@ items:
   type: Class
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccountException.cs
+      path: CustomerManager/OmniAccountException.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: OmniAccountException
     path: OmniAccountException.cs
     startLine: 8
@@ -76,7 +78,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccountException.cs
+      path: CustomerManager/OmniAccountException.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: OmniAccountException.cs
     startLine: 13
@@ -109,7 +113,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccountException.cs
+      path: CustomerManager/OmniAccountException.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: .ctor
     path: OmniAccountException.cs
     startLine: 14
@@ -142,7 +148,9 @@ items:
   type: Property
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniAccountException.cs
+      path: CustomerManager/OmniAccountException.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Message
     path: OmniAccountException.cs
     startLine: 19

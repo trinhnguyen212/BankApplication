@@ -15,7 +15,9 @@ items:
   type: Interface
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+      path: CustomerManager/Interface.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: IObserver
     path: Interface.cs
     startLine: 9
@@ -44,7 +46,9 @@ items:
   type: Method
   source:
     remote:
-      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/Interface.cs
+      path: CustomerManager/Interface.cs
+      branch: Customer-Data_Management
+      repo: https://github.com/trinhnguyen212/BankApplication.git
     id: Update
     path: Interface.cs
     startLine: 14
