@@ -17,9 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/EverydayAccountException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccountException.cs
     id: EverydayAccountException
     path: EverydayAccountException.cs
     startLine: 8
@@ -78,9 +76,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/EverydayAccountException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccountException.cs
     id: .ctor
     path: EverydayAccountException.cs
     startLine: 13
@@ -113,9 +109,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/EverydayAccountException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccountException.cs
     id: .ctor
     path: EverydayAccountException.cs
     startLine: 16
@@ -148,9 +142,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/EverydayAccountException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayAccountException.cs
     id: Message
     path: EverydayAccountException.cs
     startLine: 21

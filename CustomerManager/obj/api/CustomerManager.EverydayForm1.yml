@@ -17,9 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/EverydayForm1.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayForm1.Designer.cs
     id: EverydayForm1
     path: EverydayForm1.Designer.cs
     startLine: 2
@@ -582,9 +580,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/EverydayForm1.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayForm1.cs
     id: .ctor
     path: EverydayForm1.cs
     startLine: 22
@@ -617,9 +613,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/EverydayForm1.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayForm1.cs
     id: SetController
     path: EverydayForm1.cs
     startLine: 28
@@ -650,9 +644,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/EverydayForm1.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/EverydayForm1.Designer.cs
     id: Dispose
     path: EverydayForm1.Designer.cs
     startLine: 13

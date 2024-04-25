@@ -16,9 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/InvestmentForm.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentForm.Designer.cs
     id: InvestmentForm
     path: InvestmentForm.Designer.cs
     startLine: 2
@@ -581,9 +579,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/InvestmentForm.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentForm.cs
     id: .ctor
     path: InvestmentForm.cs
     startLine: 22
@@ -616,9 +612,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentForm.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentForm.Designer.cs
     id: Dispose
     path: InvestmentForm.Designer.cs
     startLine: 13

@@ -17,9 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/FailedTransferException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/FailedTransferException.cs
     id: FailedTransferExcception
     path: FailedTransferException.cs
     startLine: 8
@@ -76,9 +74,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/FailedTransferException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/FailedTransferException.cs
     id: Deficit
     path: FailedTransferException.cs
     startLine: 13
@@ -111,9 +107,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/FailedTransferException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/FailedTransferException.cs
     id: FailedMessageTransfer
     path: FailedTransferException.cs
     startLine: 18
@@ -146,9 +140,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/FailedTransferException.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/FailedTransferException.cs
     id: .ctor
     path: FailedTransferException.cs
     startLine: 26

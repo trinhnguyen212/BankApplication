@@ -20,9 +20,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/frmCatalog.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.Designer.cs
     id: frmCatalog
     path: frmCatalog.Designer.cs
     startLine: 2
@@ -595,9 +593,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/frmCatalog.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.cs
     id: .ctor
     path: frmCatalog.cs
     startLine: 22
@@ -625,9 +621,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmCatalog.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.cs
     id: SetController
     path: frmCatalog.cs
     startLine: 30
@@ -658,9 +652,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmCatalog.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.cs
     id: Update
     path: frmCatalog.cs
     startLine: 35
@@ -693,9 +685,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmCatalog.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.Designer.cs
     id: Dispose
     path: frmCatalog.Designer.cs
     startLine: 13
@@ -732,9 +722,7 @@ items:
   type: Field
   source:
     remote:
-      path: CustomerManager/frmCatalog.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.Designer.cs
     id: lstCatalog
     path: frmCatalog.Designer.cs
     startLine: 79
@@ -763,9 +751,7 @@ items:
   type: Field
   source:
     remote:
-      path: CustomerManager/frmCatalog.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmCatalog.Designer.cs
     id: btnManageTrans
     path: frmCatalog.Designer.cs
     startLine: 81

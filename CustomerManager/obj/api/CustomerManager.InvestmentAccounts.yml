@@ -23,9 +23,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: InvestmentAccounts
     path: InvestmentAccounts.cs
     startLine: 11
@@ -80,9 +78,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: failedTransFee
     path: InvestmentAccounts.cs
     startLine: 22
@@ -115,9 +111,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: interestRated
     path: InvestmentAccounts.cs
     startLine: 27
@@ -150,9 +144,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: .ctor
     path: InvestmentAccounts.cs
     startLine: 33
@@ -187,9 +179,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: Withdraw
     path: InvestmentAccounts.cs
     startLine: 41
@@ -223,9 +213,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: Caculatedinterest
     path: InvestmentAccounts.cs
     startLine: 59
@@ -258,9 +246,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: CaCulatedInterest
     path: InvestmentAccounts.cs
     startLine: 65
@@ -290,9 +276,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: ApplyInterest
     path: InvestmentAccounts.cs
     startLine: 71
@@ -320,9 +304,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: CaculateTransFee
     path: InvestmentAccounts.cs
     startLine: 82
@@ -355,9 +337,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/InvestmentAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/InvestmentAccounts.cs
     id: Info
     path: InvestmentAccounts.cs
     startLine: 96

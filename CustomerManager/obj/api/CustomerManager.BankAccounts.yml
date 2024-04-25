@@ -21,9 +21,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: BankAccounts
     path: BankAccounts.cs
     startLine: 14
@@ -78,9 +76,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: .ctor
     path: BankAccounts.cs
     startLine: 26
@@ -108,9 +104,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: accountID
     path: BankAccounts.cs
     startLine: 34
@@ -143,9 +137,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: Balance
     path: BankAccounts.cs
     startLine: 40
@@ -178,9 +170,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: Deposit
     path: BankAccounts.cs
     startLine: 46
@@ -211,9 +201,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: Withdraw
     path: BankAccounts.cs
     startLine: 55
@@ -246,9 +234,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: Transfer
     path: BankAccounts.cs
     startLine: 73
@@ -285,9 +271,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/BankAccounts.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/BankAccounts.cs
     id: Info
     path: BankAccounts.cs
     startLine: 95

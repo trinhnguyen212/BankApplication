@@ -20,9 +20,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/frmAddAccount.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.Designer.cs
     id: frmAddAccount
     path: frmAddAccount.Designer.cs
     startLine: 2
@@ -585,9 +583,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/frmAddAccount.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.cs
     id: FirstName
     path: frmAddAccount.cs
     startLine: 26
@@ -620,9 +616,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/frmAddAccount.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.cs
     id: ID
     path: frmAddAccount.cs
     startLine: 31
@@ -655,9 +649,7 @@ items:
   type: Property
   source:
     remote:
-      path: CustomerManager/frmAddAccount.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.cs
     id: IsStaff
     path: frmAddAccount.cs
     startLine: 36
@@ -690,9 +682,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/frmAddAccount.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.cs
     id: .ctor
     path: frmAddAccount.cs
     startLine: 44
@@ -720,9 +710,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmAddAccount.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.cs
     id: SetController
     path: frmAddAccount.cs
     startLine: 54
@@ -753,9 +741,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmAddAccount.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmAddAccount.Designer.cs
     id: Dispose
     path: frmAddAccount.Designer.cs
     startLine: 13

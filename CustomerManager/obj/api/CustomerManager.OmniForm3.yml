@@ -16,9 +16,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/OmniForm3.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniForm3.Designer.cs
     id: OmniForm3
     path: OmniForm3.Designer.cs
     startLine: 2
@@ -581,9 +579,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/OmniForm3.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniForm3.cs
     id: .ctor
     path: OmniForm3.cs
     startLine: 22
@@ -616,9 +612,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/OmniForm3.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/OmniForm3.Designer.cs
     id: Dispose
     path: OmniForm3.Designer.cs
     startLine: 13

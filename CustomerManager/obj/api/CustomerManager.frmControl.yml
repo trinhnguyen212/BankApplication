@@ -17,9 +17,7 @@ items:
   type: Class
   source:
     remote:
-      path: CustomerManager/frmControl.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmControl.Designer.cs
     id: frmControl
     path: frmControl.Designer.cs
     startLine: 2
@@ -582,9 +580,7 @@ items:
   type: Constructor
   source:
     remote:
-      path: CustomerManager/frmControl.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmControl.cs
     id: .ctor
     path: frmControl.cs
     startLine: 22
@@ -615,9 +611,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmControl.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmControl.cs
     id: SetController
     path: frmControl.cs
     startLine: 56
@@ -648,9 +642,7 @@ items:
   type: Method
   source:
     remote:
-      path: CustomerManager/frmControl.Designer.cs
-      branch: Customer-Data_Management
-      repo: https://github.com/trinhnguyen212/BankApplication.git
+      path: C:/Users/tracy/Downloads/BANK_CUSTOMER_MANAGEMENT-main/BANK_CUSTOMER_MANAGEMENT-main/CustomerManager/frmControl.Designer.cs
     id: Dispose
     path: frmControl.Designer.cs
     startLine: 13
